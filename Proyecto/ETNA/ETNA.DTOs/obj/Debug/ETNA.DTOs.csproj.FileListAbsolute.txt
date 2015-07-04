@@ -1,0 +1,28 @@
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.DTOs\bin\Debug\ETNA.DTOs.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.DTOs\bin\Debug\ETNA.DTOs.pdb
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.DTOs\obj\Debug\ETNA.DTOs.csprojResolveAssemblyReference.cache
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.DTOs\obj\Debug\ETNA.DTOs.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.DTOs\obj\Debug\ETNA.DTOs.pdb
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.DTOs\bin\Debug\ETNA.Domain.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.DTOs\bin\Debug\ETNA.Domain.pdb
+C:\Repository\ETNA\ETNA.DTOs\bin\Debug\ETNA.DTOs.dll
+C:\Repository\ETNA\ETNA.DTOs\bin\Debug\ETNA.DTOs.pdb
+C:\Repository\ETNA\ETNA.DTOs\bin\Debug\ETNA.Domain.dll
+C:\Repository\ETNA\ETNA.DTOs\bin\Debug\ETNA.Domain.pdb
+C:\Repository\ETNA\ETNA.DTOs\obj\Debug\ETNA.DTOs.csprojResolveAssemblyReference.cache
+C:\Repository\ETNA\ETNA.DTOs\obj\Debug\ETNA.DTOs.dll
+C:\Repository\ETNA\ETNA.DTOs\obj\Debug\ETNA.DTOs.pdb
+C:\ETNA\ETNA\ETNA.DTOs\bin\Debug\ETNA.DTOs.dll
+C:\ETNA\ETNA\ETNA.DTOs\bin\Debug\ETNA.DTOs.pdb
+C:\ETNA\ETNA\ETNA.DTOs\bin\Debug\ETNA.Domain.dll
+C:\ETNA\ETNA\ETNA.DTOs\bin\Debug\ETNA.Domain.pdb
+C:\ETNA\ETNA\ETNA.DTOs\obj\Debug\ETNA.DTOs.csprojResolveAssemblyReference.cache
+C:\ETNA\ETNA\ETNA.DTOs\obj\Debug\ETNA.DTOs.dll
+C:\ETNA\ETNA\ETNA.DTOs\obj\Debug\ETNA.DTOs.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DTOs\bin\Debug\ETNA.DTOs.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DTOs\bin\Debug\ETNA.DTOs.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DTOs\bin\Debug\ETNA.Domain.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DTOs\bin\Debug\ETNA.Domain.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DTOs\obj\Debug\ETNA.DTOs.csprojResolveAssemblyReference.cache
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DTOs\obj\Debug\ETNA.DTOs.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DTOs\obj\Debug\ETNA.DTOs.pdb

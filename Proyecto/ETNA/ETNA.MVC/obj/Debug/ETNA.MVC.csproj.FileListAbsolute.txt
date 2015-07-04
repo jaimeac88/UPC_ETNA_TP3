@@ -1,0 +1,244 @@
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\AutoMapper.Net4.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\ETNA.MVC.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\ETNA.MVC.pdb
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\Antlr3.Runtime.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\AutoMapper.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\DotNetOpenAuth.AspNet.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\DotNetOpenAuth.Core.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\DotNetOpenAuth.OAuth.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\DotNetOpenAuth.OpenId.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\EntityFramework.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\ETNA.Common.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\Newtonsoft.Json.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\System.Web.Helpers.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\System.Web.Mvc.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\System.Web.Optimization.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\System.Web.Razor.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\System.Web.WebPages.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\System.Web.WebPages.Razor.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\WebGrease.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\WebMatrix.Data.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\WebMatrix.WebData.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\ETNA.Common.pdb
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\AutoMapper.pdb
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\AutoMapper.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\AutoMapper.Net4.pdb
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\EntityFramework.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\Newtonsoft.Json.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\System.Web.Helpers.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\System.Web.Mvc.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\System.Web.Razor.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\System.Web.WebPages.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\System.Web.WebPages.Deployment.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\System.Web.WebPages.Razor.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\WebMatrix.Data.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\WebMatrix.WebData.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\DotNetOpenAuth.AspNet.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\DotNetOpenAuth.Core.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\DotNetOpenAuth.OAuth.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\DotNetOpenAuth.OpenId.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\es\EntityFramework.resources.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\es\System.Web.Helpers.resources.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\es\System.Web.Mvc.resources.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\es\System.Web.Optimization.resources.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\es\System.Web.Razor.resources.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\es\System.Web.WebPages.resources.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\es\WebMatrix.Data.resources.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\bin\es\WebMatrix.WebData.resources.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\obj\Debug\ETNA.MVC.csprojResolveAssemblyReference.cache
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\obj\Debug\ETNA.MVC.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.MVC\obj\Debug\ETNA.MVC.pdb
+C:\Repository\ETNA\ETNA.MVC\bin\AutoMapper.Net4.dll
+C:\Repository\ETNA\ETNA.MVC\bin\ETNA.MVC.dll
+C:\Repository\ETNA\ETNA.MVC\bin\ETNA.MVC.pdb
+C:\Repository\ETNA\ETNA.MVC\bin\Antlr3.Runtime.dll
+C:\Repository\ETNA\ETNA.MVC\bin\AutoMapper.dll
+C:\Repository\ETNA\ETNA.MVC\bin\DotNetOpenAuth.AspNet.dll
+C:\Repository\ETNA\ETNA.MVC\bin\DotNetOpenAuth.Core.dll
+C:\Repository\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Repository\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OAuth.dll
+C:\Repository\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OpenId.dll
+C:\Repository\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Repository\ETNA\ETNA.MVC\bin\EntityFramework.dll
+C:\Repository\ETNA\ETNA.MVC\bin\ETNA.Common.dll
+C:\Repository\ETNA\ETNA.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Repository\ETNA\ETNA.MVC\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Repository\ETNA\ETNA.MVC\bin\Newtonsoft.Json.dll
+C:\Repository\ETNA\ETNA.MVC\bin\System.Web.Helpers.dll
+C:\Repository\ETNA\ETNA.MVC\bin\System.Web.Mvc.dll
+C:\Repository\ETNA\ETNA.MVC\bin\System.Web.Optimization.dll
+C:\Repository\ETNA\ETNA.MVC\bin\System.Web.Razor.dll
+C:\Repository\ETNA\ETNA.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Repository\ETNA\ETNA.MVC\bin\System.Web.WebPages.dll
+C:\Repository\ETNA\ETNA.MVC\bin\System.Web.WebPages.Razor.dll
+C:\Repository\ETNA\ETNA.MVC\bin\WebGrease.dll
+C:\Repository\ETNA\ETNA.MVC\bin\WebMatrix.Data.dll
+C:\Repository\ETNA\ETNA.MVC\bin\WebMatrix.WebData.dll
+C:\Repository\ETNA\ETNA.MVC\bin\ETNA.Common.pdb
+C:\Repository\ETNA\ETNA.MVC\bin\AutoMapper.pdb
+C:\Repository\ETNA\ETNA.MVC\bin\AutoMapper.xml
+C:\Repository\ETNA\ETNA.MVC\bin\AutoMapper.Net4.pdb
+C:\Repository\ETNA\ETNA.MVC\bin\EntityFramework.xml
+C:\Repository\ETNA\ETNA.MVC\bin\Newtonsoft.Json.xml
+C:\Repository\ETNA\ETNA.MVC\bin\System.Web.Helpers.xml
+C:\Repository\ETNA\ETNA.MVC\bin\System.Web.Mvc.xml
+C:\Repository\ETNA\ETNA.MVC\bin\System.Web.Razor.xml
+C:\Repository\ETNA\ETNA.MVC\bin\System.Web.WebPages.xml
+C:\Repository\ETNA\ETNA.MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Repository\ETNA\ETNA.MVC\bin\System.Web.WebPages.Razor.xml
+C:\Repository\ETNA\ETNA.MVC\bin\WebMatrix.Data.xml
+C:\Repository\ETNA\ETNA.MVC\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Repository\ETNA\ETNA.MVC\bin\WebMatrix.WebData.xml
+C:\Repository\ETNA\ETNA.MVC\bin\DotNetOpenAuth.AspNet.xml
+C:\Repository\ETNA\ETNA.MVC\bin\DotNetOpenAuth.Core.xml
+C:\Repository\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Repository\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OAuth.xml
+C:\Repository\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OpenId.xml
+C:\Repository\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Repository\ETNA\ETNA.MVC\bin\es\EntityFramework.resources.dll
+C:\Repository\ETNA\ETNA.MVC\bin\es\System.Web.Helpers.resources.dll
+C:\Repository\ETNA\ETNA.MVC\bin\es\System.Web.Mvc.resources.dll
+C:\Repository\ETNA\ETNA.MVC\bin\es\System.Web.Optimization.resources.dll
+C:\Repository\ETNA\ETNA.MVC\bin\es\System.Web.Razor.resources.dll
+C:\Repository\ETNA\ETNA.MVC\bin\es\System.Web.WebPages.resources.dll
+C:\Repository\ETNA\ETNA.MVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Repository\ETNA\ETNA.MVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Repository\ETNA\ETNA.MVC\bin\es\WebMatrix.Data.resources.dll
+C:\Repository\ETNA\ETNA.MVC\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Repository\ETNA\ETNA.MVC\bin\es\WebMatrix.WebData.resources.dll
+C:\Repository\ETNA\ETNA.MVC\obj\Debug\ETNA.MVC.csprojResolveAssemblyReference.cache
+C:\Repository\ETNA\ETNA.MVC\obj\Debug\ETNA.MVC.dll
+C:\Repository\ETNA\ETNA.MVC\obj\Debug\ETNA.MVC.pdb
+C:\ETNA\ETNA\ETNA.MVC\bin\AutoMapper.Net4.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\ETNA.MVC.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\ETNA.MVC.pdb
+C:\ETNA\ETNA\ETNA.MVC\bin\Antlr3.Runtime.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\AutoMapper.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\DotNetOpenAuth.AspNet.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\DotNetOpenAuth.Core.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OAuth.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OpenId.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\EntityFramework.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\ETNA.Common.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\Newtonsoft.Json.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\System.Web.Helpers.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\System.Web.Mvc.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\System.Web.Optimization.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\System.Web.Razor.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\System.Web.WebPages.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\System.Web.WebPages.Razor.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\WebGrease.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\WebMatrix.Data.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\WebMatrix.WebData.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\ETNA.Common.pdb
+C:\ETNA\ETNA\ETNA.MVC\bin\AutoMapper.pdb
+C:\ETNA\ETNA\ETNA.MVC\bin\AutoMapper.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\AutoMapper.Net4.pdb
+C:\ETNA\ETNA\ETNA.MVC\bin\EntityFramework.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\Newtonsoft.Json.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\System.Web.Helpers.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\System.Web.Mvc.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\System.Web.Razor.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\System.Web.WebPages.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\System.Web.WebPages.Deployment.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\System.Web.WebPages.Razor.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\WebMatrix.Data.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\WebMatrix.WebData.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\DotNetOpenAuth.AspNet.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\DotNetOpenAuth.Core.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OAuth.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OpenId.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\ETNA\ETNA\ETNA.MVC\bin\es\EntityFramework.resources.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\es\System.Web.Helpers.resources.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\es\System.Web.Mvc.resources.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\es\System.Web.Optimization.resources.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\es\System.Web.Razor.resources.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\es\System.Web.WebPages.resources.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\es\WebMatrix.Data.resources.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\ETNA\ETNA\ETNA.MVC\bin\es\WebMatrix.WebData.resources.dll
+C:\ETNA\ETNA\ETNA.MVC\obj\Debug\ETNA.MVC.csprojResolveAssemblyReference.cache
+C:\ETNA\ETNA\ETNA.MVC\obj\Debug\ETNA.MVC.dll
+C:\ETNA\ETNA\ETNA.MVC\obj\Debug\ETNA.MVC.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\AutoMapper.Net4.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\ETNA.MVC.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\ETNA.MVC.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\Antlr3.Runtime.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\AutoMapper.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\DotNetOpenAuth.AspNet.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\DotNetOpenAuth.Core.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\DotNetOpenAuth.OAuth.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\DotNetOpenAuth.OpenId.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\EntityFramework.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\ETNA.Common.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\Microsoft.Web.Infrastructure.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\Newtonsoft.Json.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\System.Web.Helpers.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\System.Web.Mvc.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\System.Web.Optimization.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\System.Web.Razor.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\System.Web.WebPages.Deployment.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\System.Web.WebPages.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\System.Web.WebPages.Razor.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\WebGrease.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\WebMatrix.Data.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\WebMatrix.WebData.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\ETNA.Common.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\AutoMapper.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\AutoMapper.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\AutoMapper.Net4.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\EntityFramework.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\Newtonsoft.Json.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\System.Web.Helpers.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\System.Web.Mvc.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\System.Web.Razor.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\System.Web.WebPages.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\System.Web.WebPages.Deployment.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\System.Web.WebPages.Razor.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\WebMatrix.Data.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\WebMatrix.WebData.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\DotNetOpenAuth.AspNet.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\DotNetOpenAuth.Core.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\DotNetOpenAuth.OAuth.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\DotNetOpenAuth.OpenId.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\es\EntityFramework.resources.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\es\System.Web.Helpers.resources.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\es\System.Web.Mvc.resources.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\es\System.Web.Optimization.resources.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\es\System.Web.Razor.resources.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\es\System.Web.WebPages.resources.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\es\WebMatrix.Data.resources.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\bin\es\WebMatrix.WebData.resources.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\obj\Debug\ETNA.MVC.csprojResolveAssemblyReference.cache
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\obj\Debug\ETNA.MVC.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.MVC\obj\Debug\ETNA.MVC.pdb

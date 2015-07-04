@@ -1,0 +1,19 @@
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.Common\bin\Debug\ETNA.Common.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.Common\bin\Debug\ETNA.Common.pdb
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.Common\obj\Debug\ETNA.Common.dll
+C:\ETNA-TP2\ETNA\ETNA.Solution\ETNA.Common\obj\Debug\ETNA.Common.pdb
+C:\Repository\ETNA\ETNA.Common\bin\Debug\ETNA.Common.dll
+C:\Repository\ETNA\ETNA.Common\bin\Debug\ETNA.Common.pdb
+C:\Repository\ETNA\ETNA.Common\obj\Debug\ETNA.Common.csprojResolveAssemblyReference.cache
+C:\Repository\ETNA\ETNA.Common\obj\Debug\ETNA.Common.dll
+C:\Repository\ETNA\ETNA.Common\obj\Debug\ETNA.Common.pdb
+C:\ETNA\ETNA\ETNA.Common\bin\Debug\ETNA.Common.dll
+C:\ETNA\ETNA\ETNA.Common\bin\Debug\ETNA.Common.pdb
+C:\ETNA\ETNA\ETNA.Common\obj\Debug\ETNA.Common.csprojResolveAssemblyReference.cache
+C:\ETNA\ETNA\ETNA.Common\obj\Debug\ETNA.Common.dll
+C:\ETNA\ETNA\ETNA.Common\obj\Debug\ETNA.Common.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.Common\bin\Debug\ETNA.Common.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.Common\bin\Debug\ETNA.Common.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.Common\obj\Debug\ETNA.Common.csprojResolveAssemblyReference.cache
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.Common\obj\Debug\ETNA.Common.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.Common\obj\Debug\ETNA.Common.pdb

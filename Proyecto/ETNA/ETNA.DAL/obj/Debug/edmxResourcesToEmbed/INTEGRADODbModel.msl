@@ -1,0 +1,771 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="INTEGRADOModelStoreContainer" CdmEntityContainer="INTEGRADOModelContainer">
+    <EntitySetMapping Name="TB_AL_Almacenes">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_AL_Almacenes">
+        <MappingFragment StoreEntitySet="TB_AL_Almacenes">
+          <ScalarProperty Name="AlmacenId" ColumnName="AlmacenId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="AreaEnM2" ColumnName="AreaEnM2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_AL_DetalleSolicitudEntrada">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_AL_DetalleSolicitudEntrada">
+        <MappingFragment StoreEntitySet="TB_AL_DetalleSolicitudEntrada">
+          <ScalarProperty Name="ProductoId" ColumnName="ProductoId" />
+          <ScalarProperty Name="SolicitudEntradaId" ColumnName="SolicitudEntradaId" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_AL_DocumentosReferencia">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_AL_DocumentosReferencia">
+        <MappingFragment StoreEntitySet="TB_AL_DocumentosReferencia">
+          <ScalarProperty Name="DocumentoReferenciaId" ColumnName="DocumentoReferenciaId" />
+          <ScalarProperty Name="IdentificadorDocumento" ColumnName="IdentificadorDocumento" />
+          <ScalarProperty Name="FechaElaboracion" ColumnName="FechaElaboracion" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="AlmacenId" ColumnName="AlmacenId" />
+          <ScalarProperty Name="EmpleadoId" ColumnName="EmpleadoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_AL_DocumentosReferenciaAjusteInventario">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_AL_DocumentosReferenciaAjusteInventario">
+        <MappingFragment StoreEntitySet="TB_AL_DocumentosReferenciaAjusteInventario">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="DocumentoReferenciaId" ColumnName="DocumentoReferenciaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_AL_DocumentosReferenciaGuiaEntrada">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_AL_DocumentosReferenciaGuiaEntrada">
+        <MappingFragment StoreEntitySet="TB_AL_DocumentosReferenciaGuiaEntrada">
+          <ScalarProperty Name="GuiaEntradaId" ColumnName="GuiaEntradaId" />
+          <ScalarProperty Name="SolicitudEntradaId" ColumnName="SolicitudEntradaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_AL_DocumentosReferenciaGuiaSalida">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_AL_DocumentosReferenciaGuiaSalida">
+        <MappingFragment StoreEntitySet="TB_AL_DocumentosReferenciaGuiaSalida">
+          <ScalarProperty Name="GuiaSalidaId" ColumnName="GuiaSalidaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_AL_Kardex">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_AL_Kardex">
+        <MappingFragment StoreEntitySet="TB_AL_Kardex">
+          <ScalarProperty Name="KardexId" ColumnName="KardexId" />
+          <ScalarProperty Name="TipoMovimiento" ColumnName="TipoMovimiento" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="ValorUnitario" ColumnName="ValorUnitario" />
+          <ScalarProperty Name="DocumentoReferenciaId" ColumnName="DocumentoReferenciaId" />
+          <ScalarProperty Name="AlmacenId" ColumnName="AlmacenId" />
+          <ScalarProperty Name="ProductoId" ColumnName="ProductoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_AL_Productos">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_AL_Productos">
+        <MappingFragment StoreEntitySet="TB_AL_Productos">
+          <ScalarProperty Name="ProductoId" ColumnName="ProductoId" />
+          <ScalarProperty Name="CodigoProducto" ColumnName="CodigoProducto" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="DescripcionCorta" ColumnName="DescripcionCorta" />
+          <ScalarProperty Name="DescripcionLarga" ColumnName="DescripcionLarga" />
+          <ScalarProperty Name="Unidad" ColumnName="Unidad" />
+          <ScalarProperty Name="PrecioListaCompra" ColumnName="PrecioListaCompra" />
+          <ScalarProperty Name="PrecioListaVenta" ColumnName="PrecioListaVenta" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_AL_ReservaStock">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_AL_ReservaStock">
+        <MappingFragment StoreEntitySet="TB_AL_ReservaStock">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="FechaVigencia" ColumnName="FechaVigencia" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="CantidadReservada" ColumnName="CantidadReservada" />
+          <ScalarProperty Name="CodigoSolAtencion" ColumnName="CodigoSolAtencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_AL_SolicitudesEntrada">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_AL_SolicitudesEntrada">
+        <MappingFragment StoreEntitySet="TB_AL_SolicitudesEntrada">
+          <ScalarProperty Name="SolicitudEntradaId" ColumnName="SolicitudEntradaId" />
+          <ScalarProperty Name="FechaElaboracion" ColumnName="FechaElaboracion" />
+          <ScalarProperty Name="TipoEntrada" ColumnName="TipoEntrada" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="EmpleadoId" ColumnName="EmpleadoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CA_DetalleOrdenCalidad">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_CA_DetalleOrdenCalidad">
+        <MappingFragment StoreEntitySet="TB_CA_DetalleOrdenCalidad">
+          <ScalarProperty Name="IdDetalleOrdenCalidad" ColumnName="IdDetalleOrdenCalidad" />
+          <ScalarProperty Name="REDetalleOrdenCalidad" ColumnName="REDetalleOrdenCalidad" />
+          <ScalarProperty Name="ESDetalleOrdenCalidad" ColumnName="ESDetalleOrdenCalidad" />
+          <ScalarProperty Name="IDOrdenCalidad" ColumnName="IDOrdenCalidad" />
+          <ScalarProperty Name="IDIngenieriaProducto" ColumnName="IDIngenieriaProducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CA_DetallePlanCalidad">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_CA_DetallePlanCalidad">
+        <MappingFragment StoreEntitySet="TB_CA_DetallePlanCalidad">
+          <ScalarProperty Name="IDDetallePlanCalidad" ColumnName="IDDetallePlanCalidad" />
+          <ScalarProperty Name="IDPlanCalidad" ColumnName="IDPlanCalidad" />
+          <ScalarProperty Name="FchEjecucion" ColumnName="FchEjecucion" />
+          <ScalarProperty Name="IdEspecialistaCalendario" ColumnName="IdEspecialistaCalendario" />
+          <ScalarProperty Name="IdLote" ColumnName="IdLote" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CA_Especialista">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_CA_Especialista">
+        <MappingFragment StoreEntitySet="TB_CA_Especialista">
+          <ScalarProperty Name="IdEspecialista" ColumnName="IdEspecialista" />
+          <ScalarProperty Name="NombreEspecialista" ColumnName="NombreEspecialista" />
+          <ScalarProperty Name="ApellidosEspecialista" ColumnName="ApellidosEspecialista" />
+          <ScalarProperty Name="CodigoEspecialista" ColumnName="CodigoEspecialista" />
+          <ScalarProperty Name="Especialidad" ColumnName="Especialidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CA_EspecialistaCalendario">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_CA_EspecialistaCalendario">
+        <MappingFragment StoreEntitySet="TB_CA_EspecialistaCalendario">
+          <ScalarProperty Name="IdEspecialistaCalendario" ColumnName="IdEspecialistaCalendario" />
+          <ScalarProperty Name="FchInicio" ColumnName="FchInicio" />
+          <ScalarProperty Name="FchFin" ColumnName="FchFin" />
+          <ScalarProperty Name="EstadoEspecialistaCalendario" ColumnName="EstadoEspecialistaCalendario" />
+          <ScalarProperty Name="IDEspecialista" ColumnName="IDEspecialista" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CA_IngenieriaProducto">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_CA_IngenieriaProducto">
+        <MappingFragment StoreEntitySet="TB_CA_IngenieriaProducto">
+          <ScalarProperty Name="IDIngenieriaProducto" ColumnName="IDIngenieriaProducto" />
+          <ScalarProperty Name="codigoIngenieriaProducto" ColumnName="codigoIngenieriaProducto" />
+          <ScalarProperty Name="valorPermitido" ColumnName="valorPermitido" />
+          <ScalarProperty Name="UnidadMedida" ColumnName="UnidadMedida" />
+          <ScalarProperty Name="PoMuestra" ColumnName="PoMuestra" />
+          <ScalarProperty Name="Codigo_Producto" ColumnName="Codigo_Producto" />
+          <ScalarProperty Name="IdTipoPrueba" ColumnName="IdTipoPrueba" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CA_OrdenCalidad">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_CA_OrdenCalidad">
+        <MappingFragment StoreEntitySet="TB_CA_OrdenCalidad">
+          <ScalarProperty Name="IdOrdenCalidad" ColumnName="IdOrdenCalidad" />
+          <ScalarProperty Name="FchOrdenCalidad" ColumnName="FchOrdenCalidad" />
+          <ScalarProperty Name="NumeroHoras" ColumnName="NumeroHoras" />
+          <ScalarProperty Name="EstadoOrdenCalidad" ColumnName="EstadoOrdenCalidad" />
+          <ScalarProperty Name="IDDetallePlanCalidad" ColumnName="IDDetallePlanCalidad" />
+          <ScalarProperty Name="IDSolicitud" ColumnName="IDSolicitud" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CA_PlanCalidad">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_CA_PlanCalidad">
+        <MappingFragment StoreEntitySet="TB_CA_PlanCalidad">
+          <ScalarProperty Name="IDPlanCalidad" ColumnName="IDPlanCalidad" />
+          <ScalarProperty Name="FchPlanCalidad" ColumnName="FchPlanCalidad" />
+          <ScalarProperty Name="IdEspecialista" ColumnName="IdEspecialista" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CA_TipoPrueba">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_CA_TipoPrueba">
+        <MappingFragment StoreEntitySet="TB_CA_TipoPrueba">
+          <ScalarProperty Name="IdTipoPrueba" ColumnName="IdTipoPrueba" />
+          <ScalarProperty Name="DescripcionTipoPrueba" ColumnName="DescripcionTipoPrueba" />
+          <ScalarProperty Name="CodigoTipoPrueba" ColumnName="CodigoTipoPrueba" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_Contrato">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_Contrato">
+        <MappingFragment StoreEntitySet="TB_Contrato">
+          <ScalarProperty Name="ContratoId" ColumnName="ContratoId" />
+          <ScalarProperty Name="FechaContrato" ColumnName="FechaContrato" />
+          <ScalarProperty Name="Moneda" ColumnName="Moneda" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="DocumentoAdjunto" ColumnName="DocumentoAdjunto" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="CodigoSolAtencion" ColumnName="CodigoSolAtencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CronogramaDespacho">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_CronogramaDespacho">
+        <MappingFragment StoreEntitySet="TB_CronogramaDespacho">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaDespacho" ColumnName="FechaDespacho" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="CodigoSolAtencion" ColumnName="CodigoSolAtencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CronogramaEmbarque">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_CronogramaEmbarque">
+        <MappingFragment StoreEntitySet="TB_CronogramaEmbarque">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaEmbarque" ColumnName="FechaEmbarque" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="CodigoSolAtencion" ColumnName="CodigoSolAtencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_DetalleRequerimiento">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_DetalleRequerimiento">
+        <MappingFragment StoreEntitySet="TB_DetalleRequerimiento">
+          <ScalarProperty Name="CodigoReq" ColumnName="CodigoReq" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="CIF" ColumnName="CIF" />
+          <ScalarProperty Name="FOB" ColumnName="FOB" />
+          <ScalarProperty Name="CodigoDocExport" ColumnName="CodigoDocExport" />
+          <ScalarProperty Name="CodigoSolAtencion" ColumnName="CodigoSolAtencion" />
+          <ScalarProperty Name="ProductoId" ColumnName="ProductoId" />
+          <ScalarProperty Name="CodigoDocSiicex" ColumnName="CodigoDocSiicex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_EX_DetalleDocExportacion">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_EX_DetalleDocExportacion">
+        <MappingFragment StoreEntitySet="TB_EX_DetalleDocExportacion">
+          <ScalarProperty Name="CodigoDocExport" ColumnName="CodigoDocExport" />
+          <ScalarProperty Name="FechaPublicacion" ColumnName="FechaPublicacion" />
+          <ScalarProperty Name="FechaExpiracion" ColumnName="FechaExpiracion" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="DocumentoAdjunto" ColumnName="DocumentoAdjunto" />
+          <ScalarProperty Name="CodigoDocSiicex" ColumnName="CodigoDocSiicex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_EX_DocumentoExportacion">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_EX_DocumentoExportacion">
+        <MappingFragment StoreEntitySet="TB_EX_DocumentoExportacion">
+          <ScalarProperty Name="CodigoDocExport" ColumnName="CodigoDocExport" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_EX_DocumentoSIICEX">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_EX_DocumentoSIICEX">
+        <MappingFragment StoreEntitySet="TB_EX_DocumentoSIICEX">
+          <ScalarProperty Name="CodigoDocSiicex" ColumnName="CodigoDocSiicex" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_EX_FormatoDocumento">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_EX_FormatoDocumento">
+        <MappingFragment StoreEntitySet="TB_EX_FormatoDocumento">
+          <ScalarProperty Name="CodigoFormato" ColumnName="CodigoFormato" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="FormatoDocumento" ColumnName="FormatoDocumento" />
+          <ScalarProperty Name="CodigoPickingList" ColumnName="CodigoPickingList" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_EX_IATA">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_EX_IATA">
+        <MappingFragment StoreEntitySet="TB_EX_IATA">
+          <ScalarProperty Name="CodigoIata" ColumnName="CodigoIata" />
+          <ScalarProperty Name="CodigoPais" ColumnName="CodigoPais" />
+          <ScalarProperty Name="DescripcionIata" ColumnName="DescripcionIata" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_EX_PackingList">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_EX_PackingList">
+        <MappingFragment StoreEntitySet="TB_EX_PackingList">
+          <ScalarProperty Name="CodigoPickingList" ColumnName="CodigoPickingList" />
+          <ScalarProperty Name="NroBulto" ColumnName="NroBulto" />
+          <ScalarProperty Name="Contenido" ColumnName="Contenido" />
+          <ScalarProperty Name="Dimensiones" ColumnName="Dimensiones" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="VolumenTotal" ColumnName="VolumenTotal" />
+          <ScalarProperty Name="PesoTotal" ColumnName="PesoTotal" />
+          <ScalarProperty Name="PesoBrutoTotal" ColumnName="PesoBrutoTotal" />
+          <ScalarProperty Name="CodigoSolAtencion" ColumnName="CodigoSolAtencion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_EX_SolicitudAtencion">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_EX_SolicitudAtencion">
+        <MappingFragment StoreEntitySet="TB_EX_SolicitudAtencion">
+          <ScalarProperty Name="CodigoSolAtencion" ColumnName="CodigoSolAtencion" />
+          <ScalarProperty Name="Responsable" ColumnName="Responsable" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="FechaReservaEspacio" ColumnName="FechaReservaEspacio" />
+          <ScalarProperty Name="FechaDespacho" ColumnName="FechaDespacho" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_Lotes">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_Lotes">
+        <MappingFragment StoreEntitySet="TB_Lotes">
+          <ScalarProperty Name="LoteId" ColumnName="LoteId" />
+          <ScalarProperty Name="NroLote" ColumnName="NroLote" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="TipoLoteId" ColumnName="TipoLoteId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_MA_Pais">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_MA_Pais">
+        <MappingFragment StoreEntitySet="TB_MA_Pais">
+          <ScalarProperty Name="CodigoPais" ColumnName="CodigoPais" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_ModalidadCredito">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_ModalidadCredito">
+        <MappingFragment StoreEntitySet="TB_ModalidadCredito">
+          <ScalarProperty Name="ModalidadCreditoId" ColumnName="ModalidadCreditoId" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="DiasCredito" ColumnName="DiasCredito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PR_LoteFabricacion">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_PR_LoteFabricacion">
+        <MappingFragment StoreEntitySet="TB_PR_LoteFabricacion">
+          <ScalarProperty Name="LoteId" ColumnName="LoteId" />
+          <ScalarProperty Name="SolId" ColumnName="SolId" />
+          <ScalarProperty Name="CodigoProducto" ColumnName="CodigoProducto" />
+          <ScalarProperty Name="CantInsumos" ColumnName="CantInsumos" />
+          <ScalarProperty Name="CantMaquina" ColumnName="CantMaquina" />
+          <ScalarProperty Name="CantPersonal" ColumnName="CantPersonal" />
+          <ScalarProperty Name="FecSol" ColumnName="FecSol" />
+          <ScalarProperty Name="FecInicial" ColumnName="FecInicial" />
+          <ScalarProperty Name="FecFinal" ColumnName="FecFinal" />
+          <ScalarProperty Name="SolicitanteId" ColumnName="SolicitanteId" />
+          <ScalarProperty Name="EstLote" ColumnName="EstLote" />
+          <ScalarProperty Name="GlosaOrd" ColumnName="GlosaOrd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PR_OrdenTrabajo">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_PR_OrdenTrabajo">
+        <MappingFragment StoreEntitySet="TB_PR_OrdenTrabajo">
+          <ScalarProperty Name="OrdenId" ColumnName="OrdenId" />
+          <ScalarProperty Name="LoteId" ColumnName="LoteId" />
+          <ScalarProperty Name="AreaTrabajo" ColumnName="AreaTrabajo" />
+          <ScalarProperty Name="FecIniciOrden" ColumnName="FecIniciOrden" />
+          <ScalarProperty Name="FecFinalOrden" ColumnName="FecFinalOrden" />
+          <ScalarProperty Name="RecursoId" ColumnName="RecursoId" />
+          <ScalarProperty Name="DescRecurso" ColumnName="DescRecurso" />
+          <ScalarProperty Name="CantRecursoDisp" ColumnName="CantRecursoDisp" />
+          <ScalarProperty Name="GlosaOrd" ColumnName="GlosaOrd" />
+          <ScalarProperty Name="EstOrden" ColumnName="EstOrden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PV_Encuestas">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_PV_Encuestas">
+        <MappingFragment StoreEntitySet="TB_PV_Encuestas">
+          <ScalarProperty Name="EncuestaId" ColumnName="EncuestaId" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaRespuesta" ColumnName="FechaRespuesta" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="ProgramacionId" ColumnName="ProgramacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PV_InformesReclamo">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_PV_InformesReclamo">
+        <MappingFragment StoreEntitySet="TB_PV_InformesReclamo">
+          <ScalarProperty Name="InformeReclamoId" ColumnName="InformeReclamoId" />
+          <ScalarProperty Name="CodigoInforme" ColumnName="CodigoInforme" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="DetalleInforme" ColumnName="DetalleInforme" />
+          <ScalarProperty Name="FechaAprobacion" ColumnName="FechaAprobacion" />
+          <ScalarProperty Name="FechaElaboracion" ColumnName="FechaElaboracion" />
+          <ScalarProperty Name="ObservacionAprobador" ColumnName="ObservacionAprobador" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="ReclamoId" ColumnName="ReclamoId" />
+          <ScalarProperty Name="ElaboradoPorId" ColumnName="ElaboradoPorId" />
+          <ScalarProperty Name="AprobadoPorId" ColumnName="AprobadoPorId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PV_InformesResultado">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_PV_InformesResultado">
+        <MappingFragment StoreEntitySet="TB_PV_InformesResultado">
+          <ScalarProperty Name="InformeResultadoId" ColumnName="InformeResultadoId" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaElaboracion" ColumnName="FechaElaboracion" />
+          <ScalarProperty Name="FechaTabIni" ColumnName="FechaTabIni" />
+          <ScalarProperty Name="FechaTabFin" ColumnName="FechaTabFin" />
+          <ScalarProperty Name="DetalleAnalisis" ColumnName="DetalleAnalisis" />
+          <ScalarProperty Name="ElaboradoPorId" ColumnName="ElaboradoPorId" />
+          <ScalarProperty Name="PlantillaId" ColumnName="PlantillaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PV_Plantillas">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_PV_Plantillas">
+        <MappingFragment StoreEntitySet="TB_PV_Plantillas">
+          <ScalarProperty Name="PlantillaId" ColumnName="PlantillaId" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="TipoPlantillaId" ColumnName="TipoPlantillaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PV_PlantillasDetalle">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_PV_PlantillasDetalle">
+        <MappingFragment StoreEntitySet="TB_PV_PlantillasDetalle">
+          <ScalarProperty Name="PlantillaDetalleId" ColumnName="PlantillaDetalleId" />
+          <ScalarProperty Name="CodigoPregunta" ColumnName="CodigoPregunta" />
+          <ScalarProperty Name="DescripcionPregunta" ColumnName="DescripcionPregunta" />
+          <ScalarProperty Name="Respuesta1" ColumnName="Respuesta1" />
+          <ScalarProperty Name="Respuesta2" ColumnName="Respuesta2" />
+          <ScalarProperty Name="Respuesta3" ColumnName="Respuesta3" />
+          <ScalarProperty Name="Respuesta4" ColumnName="Respuesta4" />
+          <ScalarProperty Name="Respuesta5" ColumnName="Respuesta5" />
+          <ScalarProperty Name="PlantillaId" ColumnName="PlantillaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PV_Programaciones">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_PV_Programaciones">
+        <MappingFragment StoreEntitySet="TB_PV_Programaciones">
+          <ScalarProperty Name="ProgramacionId" ColumnName="ProgramacionId" />
+          <ScalarProperty Name="CodigoProgramacion" ColumnName="CodigoProgramacion" />
+          <ScalarProperty Name="Periodicidad" ColumnName="Periodicidad" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="PorcentajeEncuestados" ColumnName="PorcentajeEncuestados" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="DiasVigencia" ColumnName="DiasVigencia" />
+          <ScalarProperty Name="PlantillaId" ColumnName="PlantillaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PV_Reclamos">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_PV_Reclamos">
+        <MappingFragment StoreEntitySet="TB_PV_Reclamos">
+          <ScalarProperty Name="ReclamoId" ColumnName="ReclamoId" />
+          <ScalarProperty Name="CodigoReclamo" ColumnName="CodigoReclamo" />
+          <ScalarProperty Name="FechaHoraReclamo" ColumnName="FechaHoraReclamo" />
+          <ScalarProperty Name="Motivo" ColumnName="Motivo" />
+          <ScalarProperty Name="Detalle" ColumnName="Detalle" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="FechaRespuesta" ColumnName="FechaRespuesta" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="RegistradoPorId" ColumnName="RegistradoPorId" />
+          <ScalarProperty Name="FacturaDetalleId" ColumnName="FacturaDetalleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_PV_TiposPlantilla">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_PV_TiposPlantilla">
+        <MappingFragment StoreEntitySet="TB_PV_TiposPlantilla">
+          <ScalarProperty Name="TipoPlantillaId" ColumnName="TipoPlantillaId" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_Requerimiento">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_Requerimiento">
+        <MappingFragment StoreEntitySet="TB_Requerimiento">
+          <ScalarProperty Name="CodigoReq" ColumnName="CodigoReq" />
+          <ScalarProperty Name="Destino" ColumnName="Destino" />
+          <ScalarProperty Name="IATA" ColumnName="IATA" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="FechaEsperada" ColumnName="FechaEsperada" />
+          <ScalarProperty Name="PrecioAprox" ColumnName="PrecioAprox" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="CodigoPais" ColumnName="CodigoPais" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_RH_Empleados">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_RH_Empleados">
+        <MappingFragment StoreEntitySet="TB_RH_Empleados">
+          <ScalarProperty Name="EmpleadoId" ColumnName="EmpleadoId" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="GrupoVentaId" ColumnName="GrupoVentaId" />
+          <ScalarProperty Name="DocIdentidad" ColumnName="DocIdentidad" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_SE_Membership">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_SE_Membership">
+        <MappingFragment StoreEntitySet="TB_SE_Membership">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ConfirmationToken" ColumnName="ConfirmationToken" />
+          <ScalarProperty Name="IsConfirmed" ColumnName="IsConfirmed" />
+          <ScalarProperty Name="LastPasswordFailureDate" ColumnName="LastPasswordFailureDate" />
+          <ScalarProperty Name="PasswordFailuresSinceLastSuccess" ColumnName="PasswordFailuresSinceLastSuccess" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PasswordChangedDate" ColumnName="PasswordChangedDate" />
+          <ScalarProperty Name="PasswordSalt" ColumnName="PasswordSalt" />
+          <ScalarProperty Name="PasswordVerificationToken" ColumnName="PasswordVerificationToken" />
+          <ScalarProperty Name="PasswordVerificationTokenExpirationDate" ColumnName="PasswordVerificationTokenExpirationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_SE_OAuthMembership">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_SE_OAuthMembership">
+        <MappingFragment StoreEntitySet="TB_SE_OAuthMembership">
+          <ScalarProperty Name="Provider" ColumnName="Provider" />
+          <ScalarProperty Name="ProviderUserId" ColumnName="ProviderUserId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_SE_Roles">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_SE_Roles">
+        <MappingFragment StoreEntitySet="TB_SE_Roles">
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_SE_UserProfile">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_SE_UserProfile">
+        <MappingFragment StoreEntitySet="TB_SE_UserProfile">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_TipoLotes">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_TipoLotes">
+        <MappingFragment StoreEntitySet="TB_TipoLotes">
+          <ScalarProperty Name="TipoLoteId" ColumnName="TipoLoteId" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_VT_Categoria">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_VT_Categoria">
+        <MappingFragment StoreEntitySet="TB_VT_Categoria">
+          <ScalarProperty Name="CategoriaId" ColumnName="CategoriaId" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_VT_Clientes">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_VT_Clientes">
+        <MappingFragment StoreEntitySet="TB_VT_Clientes">
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="TipoTerceroId" ColumnName="TipoTerceroId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ApellidoPaterno" ColumnName="ApellidoPaterno" />
+          <ScalarProperty Name="ApellidoMaterno" ColumnName="ApellidoMaterno" />
+          <ScalarProperty Name="PrimerNombre" ColumnName="PrimerNombre" />
+          <ScalarProperty Name="SegundoNombre" ColumnName="SegundoNombre" />
+          <ScalarProperty Name="RazonSocial" ColumnName="RazonSocial" />
+          <ScalarProperty Name="TipoDocIdentidadId" ColumnName="TipoDocIdentidadId" />
+          <ScalarProperty Name="Ruc" ColumnName="Ruc" />
+          <ScalarProperty Name="DocIdentidad" ColumnName="DocIdentidad" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="DireccionPrincipalId" ColumnName="DireccionPrincipalId" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="LineaCredito" ColumnName="LineaCredito" />
+          <ScalarProperty Name="ModalidadCreditoId" ColumnName="ModalidadCreditoId" />
+          <ScalarProperty Name="DiasCredito" ColumnName="DiasCredito" />
+          <ScalarProperty Name="TipoMedioDePagoId" ColumnName="TipoMedioDePagoId" />
+          <ScalarProperty Name="CreditoContado" ColumnName="CreditoContado" />
+          <ScalarProperty Name="CategoriaClienteId" ColumnName="CategoriaClienteId" />
+          <ScalarProperty Name="LineaCreditoActiva" ColumnName="LineaCreditoActiva" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="CodigoPais" ColumnName="CodigoPais" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_VT_Contacto">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_VT_Contacto">
+        <MappingFragment StoreEntitySet="TB_VT_Contacto">
+          <ScalarProperty Name="ContactoId" ColumnName="ContactoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="FechaCumpleaños" ColumnName="FechaCumpleaños" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_VT_DetallePedido">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_VT_DetallePedido">
+        <MappingFragment StoreEntitySet="TB_VT_DetallePedido">
+          <ScalarProperty Name="PedidoId" ColumnName="PedidoId" />
+          <ScalarProperty Name="ProductoId" ColumnName="ProductoId" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="DetallePedidoId" ColumnName="DetallePedidoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_VT_Direccion">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_VT_Direccion">
+        <MappingFragment StoreEntitySet="TB_VT_Direccion">
+          <ScalarProperty Name="DireccionId" ColumnName="DireccionId" />
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="DireccionPrincipal" ColumnName="DireccionPrincipal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_VT_FacturaDetalles">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_VT_FacturaDetalles">
+        <MappingFragment StoreEntitySet="TB_VT_FacturaDetalles">
+          <ScalarProperty Name="FacturaDetalleId" ColumnName="FacturaDetalleId" />
+          <ScalarProperty Name="FacturaId" ColumnName="FacturaId" />
+          <ScalarProperty Name="ProductoId" ColumnName="ProductoId" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Valortotal" ColumnName="Valortotal" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="CodigoReq" ColumnName="CodigoReq" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_VT_Facturas">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_VT_Facturas">
+        <MappingFragment StoreEntitySet="TB_VT_Facturas">
+          <ScalarProperty Name="FacturaId" ColumnName="FacturaId" />
+          <ScalarProperty Name="NumeroFact" ColumnName="NumeroFact" />
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="FechaEmision" ColumnName="FechaEmision" />
+          <ScalarProperty Name="FechaEntrega" ColumnName="FechaEntrega" />
+          <ScalarProperty Name="ModalidadCreditoId" ColumnName="ModalidadCreditoId" />
+          <ScalarProperty Name="FechaPago" ColumnName="FechaPago" />
+          <ScalarProperty Name="Credito" ColumnName="Credito" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="EmpleadoId" ColumnName="EmpleadoId" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="ValorVenta" ColumnName="ValorVenta" />
+          <ScalarProperty Name="PrecioIncluyeImpuesto" ColumnName="PrecioIncluyeImpuesto" />
+          <ScalarProperty Name="EstadoFacturacion" ColumnName="EstadoFacturacion" />
+          <ScalarProperty Name="DireccionEntrega" ColumnName="DireccionEntrega" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="MontoIGV" ColumnName="MontoIGV" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="FechaVencimiento" ColumnName="FechaVencimiento" />
+          <ScalarProperty Name="CodigoSolAtencion" ColumnName="CodigoSolAtencion" />
+          <ScalarProperty Name="CodigoReq" ColumnName="CodigoReq" />
+          <ScalarProperty Name="CodigoFormato" ColumnName="CodigoFormato" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_VT_GrupoVenta">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_VT_GrupoVenta">
+        <MappingFragment StoreEntitySet="TB_VT_GrupoVenta">
+          <ScalarProperty Name="GrupoVentaId" ColumnName="GrupoVentaId" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Descripción" ColumnName="Descripción" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_VT_ListaPrecios">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_VT_ListaPrecios">
+        <MappingFragment StoreEntitySet="TB_VT_ListaPrecios">
+          <ScalarProperty Name="ListaPrecioId" ColumnName="ListaPrecioId" />
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Descripción" ColumnName="Descripción" />
+          <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
+          <ScalarProperty Name="RestringuirZona" ColumnName="RestringuirZona" />
+          <ScalarProperty Name="RestringuirGrupoVentas" ColumnName="RestringuirGrupoVentas" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_VT_Pedido">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_VT_Pedido">
+        <MappingFragment StoreEntitySet="TB_VT_Pedido">
+          <ScalarProperty Name="PedidoId" ColumnName="PedidoId" />
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="FechaEmision" ColumnName="FechaEmision" />
+          <ScalarProperty Name="FechaEntrega" ColumnName="FechaEntrega" />
+          <ScalarProperty Name="ModalidadCreditoId" ColumnName="ModalidadCreditoId" />
+          <ScalarProperty Name="FechaPago" ColumnName="FechaPago" />
+          <ScalarProperty Name="Credito" ColumnName="Credito" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="EmpleadoId" ColumnName="EmpleadoId" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="PrecioIncluyeImpuesto" ColumnName="PrecioIncluyeImpuesto" />
+          <ScalarProperty Name="EstadoFacturacion" ColumnName="EstadoFacturacion" />
+          <ScalarProperty Name="DireccionEntrega" ColumnName="DireccionEntrega" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_VT_Telefono">
+      <EntityTypeMapping TypeName="INTEGRADOModel.TB_VT_Telefono">
+        <MappingFragment StoreEntitySet="TB_VT_Telefono">
+          <ScalarProperty Name="TelefonoId" ColumnName="TelefonoId" />
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="NumeroTelefono" ColumnName="NumeroTelefono" />
+          <ScalarProperty Name="TipoTelefono" ColumnName="TipoTelefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="TB_AL_EmpleadoAlmacen" TypeName="INTEGRADOModel.TB_AL_EmpleadoAlmacen" StoreEntitySet="TB_AL_EmpleadoAlmacen">
+      <EndProperty Name="TB_AL_Almacenes">
+        <ScalarProperty Name="AlmacenId" ColumnName="AlmacenId" />
+      </EndProperty>
+      <EndProperty Name="TB_RH_Empleados">
+        <ScalarProperty Name="EmpleadoId" ColumnName="EmpleadoId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="TB_PV_PlantillaDetalleEncuesta" TypeName="INTEGRADOModel.TB_PV_PlantillaDetalleEncuesta" StoreEntitySet="TB_PV_PlantillaDetalleEncuesta">
+      <EndProperty Name="TB_PV_Encuestas">
+        <ScalarProperty Name="EncuestaId" ColumnName="EncuestaId" />
+      </EndProperty>
+      <EndProperty Name="TB_PV_PlantillasDetalle">
+        <ScalarProperty Name="PlantillaDetalleId" ColumnName="PlantillaDetalleId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="TB_SE_UsersInRoles" TypeName="INTEGRADOModel.TB_SE_UsersInRoles" StoreEntitySet="TB_SE_UsersInRoles">
+      <EndProperty Name="TB_SE_Roles">
+        <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+      </EndProperty>
+      <EndProperty Name="TB_SE_UserProfile">
+        <ScalarProperty Name="UserId" ColumnName="UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
