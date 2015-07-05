@@ -18,3 +18,8 @@ E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.Domain\bin\Debug\E
 E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.Domain\obj\Debug\ETNA.Domain.csprojResolveAssemblyReference.cache
 E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.Domain\obj\Debug\ETNA.Domain.dll
 E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.Domain\obj\Debug\ETNA.Domain.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.Domain\bin\Debug\ETNA.Domain.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.Domain\bin\Debug\ETNA.Domain.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.Domain\obj\Debug\ETNA.Domain.csprojResolveAssemblyReference.cache
+E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.Domain\obj\Debug\ETNA.Domain.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.Domain\obj\Debug\ETNA.Domain.pdb

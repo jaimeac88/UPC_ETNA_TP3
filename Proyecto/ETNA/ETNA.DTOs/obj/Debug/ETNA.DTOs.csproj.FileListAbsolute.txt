@@ -26,3 +26,10 @@ E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DTOs\bin\Debug\ETN
 E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DTOs\obj\Debug\ETNA.DTOs.csprojResolveAssemblyReference.cache
 E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DTOs\obj\Debug\ETNA.DTOs.dll
 E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DTOs\obj\Debug\ETNA.DTOs.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.DTOs\bin\Debug\ETNA.DTOs.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.DTOs\bin\Debug\ETNA.DTOs.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.DTOs\bin\Debug\ETNA.Domain.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.DTOs\bin\Debug\ETNA.Domain.pdb
+E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.DTOs\obj\Debug\ETNA.DTOs.csprojResolveAssemblyReference.cache
+E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.DTOs\obj\Debug\ETNA.DTOs.dll
+E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.DTOs\obj\Debug\ETNA.DTOs.pdb
