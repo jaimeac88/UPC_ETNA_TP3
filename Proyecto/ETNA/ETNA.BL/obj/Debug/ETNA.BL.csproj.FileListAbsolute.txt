@@ -40,17 +40,3 @@ C:\ETNA\ETNA\ETNA.BL\bin\Debug\es\EntityFramework.resources.dll
 C:\ETNA\ETNA\ETNA.BL\obj\Debug\ETNA.BL.csprojResolveAssemblyReference.cache
 C:\ETNA\ETNA\ETNA.BL\obj\Debug\ETNA.BL.dll
 C:\ETNA\ETNA\ETNA.BL\obj\Debug\ETNA.BL.pdb
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\bin\Debug\ETNA.BL.dll
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\bin\Debug\ETNA.BL.pdb
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\bin\Debug\EntityFramework.dll
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\bin\Debug\ETNA.Common.dll
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\bin\Debug\ETNA.DAL.dll
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\bin\Debug\ETNA.Domain.dll
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\bin\Debug\ETNA.Common.pdb
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\bin\Debug\ETNA.DAL.pdb
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\bin\Debug\ETNA.Domain.pdb
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\bin\Debug\EntityFramework.xml
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\bin\Debug\es\EntityFramework.resources.dll
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\obj\Debug\ETNA.BL.csprojResolveAssemblyReference.cache
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\obj\Debug\ETNA.BL.dll
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.BL\obj\Debug\ETNA.BL.pdb

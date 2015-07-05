@@ -20,9 +20,6 @@ C:\Repository\ETNA\ETNA.DAL\bin\Debug\es\EntityFramework.resources.dll
 C:\Repository\ETNA\ETNA.DAL\obj\Debug\ETNA.DAL.csprojResolveAssemblyReference.cache
 C:\Repository\ETNA\ETNA.DAL\obj\Debug\ETNA.DAL.dll
 C:\Repository\ETNA\ETNA.DAL\obj\Debug\ETNA.DAL.pdb
-C:\ETNA\ETNA\ETNA.DAL\obj\Debug\ETNA.DAL.csprojResolveAssemblyReference.cache
-C:\ETNA\ETNA\ETNA.DAL\obj\Debug\ETNA.DAL.dll
-C:\ETNA\ETNA\ETNA.DAL\obj\Debug\ETNA.DAL.pdb
 C:\ETNA\ETNA\ETNA.DAL\bin\Debug\ETNA.DAL.dll.config
 C:\ETNA\ETNA\ETNA.DAL\bin\Debug\ETNA.DAL.dll
 C:\ETNA\ETNA\ETNA.DAL\bin\Debug\ETNA.DAL.pdb
@@ -31,14 +28,6 @@ C:\ETNA\ETNA\ETNA.DAL\bin\Debug\ETNA.Domain.dll
 C:\ETNA\ETNA\ETNA.DAL\bin\Debug\ETNA.Domain.pdb
 C:\ETNA\ETNA\ETNA.DAL\bin\Debug\EntityFramework.xml
 C:\ETNA\ETNA\ETNA.DAL\bin\Debug\es\EntityFramework.resources.dll
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DAL\bin\Debug\ETNA.DAL.dll.config
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DAL\bin\Debug\ETNA.DAL.dll
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DAL\bin\Debug\ETNA.DAL.pdb
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DAL\bin\Debug\EntityFramework.dll
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DAL\bin\Debug\ETNA.Domain.dll
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DAL\bin\Debug\ETNA.Domain.pdb
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DAL\bin\Debug\EntityFramework.xml
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DAL\bin\Debug\es\EntityFramework.resources.dll
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DAL\obj\Debug\ETNA.DAL.csprojResolveAssemblyReference.cache
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DAL\obj\Debug\ETNA.DAL.dll
-E:\UPC\Taller de Proyecto 3\Proyecto_Inicial\ETNA-master\ETNA.DAL\obj\Debug\ETNA.DAL.pdb
+C:\ETNA\ETNA\ETNA.DAL\obj\Debug\ETNA.DAL.csprojResolveAssemblyReference.cache
+C:\ETNA\ETNA\ETNA.DAL\obj\Debug\ETNA.DAL.dll
+C:\ETNA\ETNA\ETNA.DAL\obj\Debug\ETNA.DAL.pdb

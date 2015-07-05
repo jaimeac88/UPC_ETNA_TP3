@@ -16,9 +16,6 @@ Autor: Paul Taboada Casas
 Rol: DBA PostVenta
 Modulo: Seguridad
 */
-
-USE [INTEGRADO2]
-
 ALTER TABLE TB_SE_Roles
 ADD RoleDescription VARCHAR(300) DEFAULT NULL
 GO
