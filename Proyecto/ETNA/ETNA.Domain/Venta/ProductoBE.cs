@@ -22,7 +22,7 @@ namespace ETNA.Domain.Venta
     {
         get { return _LineaId; }
 
-        set { _LineaIdId = value; }
+        set { _LineaId = value; }
     }
 
 
