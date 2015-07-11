@@ -32,7 +32,7 @@ namespace ETNA.MVC.Controllers.PV
 
         //
         // GET: /Plantilla/Details/5
-
+        /*
         public ActionResult Details(int id)
         {
             return View();
@@ -114,6 +114,6 @@ namespace ETNA.MVC.Controllers.PV
             {
                 return View();
             }
-        }
+        }*/
     }
 }

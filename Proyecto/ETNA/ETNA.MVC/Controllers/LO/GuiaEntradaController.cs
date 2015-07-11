@@ -78,7 +78,7 @@ namespace ETNA.MVC.Controllers.LO
 
         //
         // GET: /GuiaEntrada/Details/5
-
+        /*
         public ActionResult Details(int id)
         {
             return View();
@@ -160,6 +160,6 @@ namespace ETNA.MVC.Controllers.LO
             {
                 return View();
             }
-        }
+        }*/
     }
 }

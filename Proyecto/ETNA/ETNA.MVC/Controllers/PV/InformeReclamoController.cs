@@ -10,7 +10,7 @@ namespace ETNA.MVC.Controllers.PV
     {
         //
         // GET: /InformeReclamo/
-
+        /*
         public ActionResult Index()
         {
             return View();
@@ -100,6 +100,6 @@ namespace ETNA.MVC.Controllers.PV
             {
                 return View();
             }
-        }
+        }*/
     }
 }

@@ -257,6 +257,24 @@
     <Compile Include="TB_VT_Telefono.cs">
       <DependentUpon>INTEGRADODbModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Venta\AlmacenesDAO.cs" />
+    <Compile Include="Venta\appventa.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>appventa.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Venta\AutenticacionDAO.cs" />
+    <Compile Include="Venta\CategoriasDAO.cs" />
+    <Compile Include="Venta\ClientesDAO.cs" />
+    <Compile Include="Venta\DConexion.cs" />
+    <Compile Include="Venta\DireccionDAO.cs" />
+    <Compile Include="Venta\DTransaccion.cs" />
+    <Compile Include="Venta\ModalidaCreditoDAO.cs" />
+    <Compile Include="Venta\MonedadDAO.cs" />
+    <Compile Include="Venta\PedidoDAO.cs" />
+    <Compile Include="Venta\ProductosDAO.cs" />
+    <Compile Include="Venta\SucursalDAO.cs" />
+    <Compile Include="Venta\VendedoresDAO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -290,6 +308,10 @@
       <LastGenOutput>INTEGRADODbModel.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
+    <None Include="Venta\appventa.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>appventa.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

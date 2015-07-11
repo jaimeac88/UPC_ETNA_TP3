@@ -22,3 +22,7 @@ E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.Common\
 E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.Common\obj\Debug\ETNA.Common.csprojResolveAssemblyReference.cache
 E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.Common\obj\Debug\ETNA.Common.dll
 E:\UPC\Taller de Proyecto 3\Proyecto_TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.Common\obj\Debug\ETNA.Common.pdb
+D:\TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.Common\bin\Debug\ETNA.Common.dll
+D:\TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.Common\bin\Debug\ETNA.Common.pdb
+D:\TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.Common\obj\Debug\ETNA.Common.dll
+D:\TP3\UPC_ETNA_TP3\Proyecto\ETNA\ETNA.Common\obj\Debug\ETNA.Common.pdb

@@ -59,6 +59,15 @@
     <Compile Include="PV\GestorPlantillas.cs" />
     <Compile Include="PV\GestorProgramaciones.cs" />
     <Compile Include="PV\GestorReclamos.cs" />
+    <Compile Include="Venta\AlmacenBL.cs" />
+    <Compile Include="Venta\AutenticacionBL.cs" />
+    <Compile Include="Venta\ClientesBL.cs" />
+    <Compile Include="Venta\DireccionBL.cs" />
+    <Compile Include="Venta\ModalidadCreditoBL.cs" />
+    <Compile Include="Venta\MonedaBL.cs" />
+    <Compile Include="Venta\PedidoBL.cs" />
+    <Compile Include="Venta\ProductoBL.cs" />
+    <Compile Include="Venta\VendedorBL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ETNA.Common\ETNA.Common.csproj">

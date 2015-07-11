@@ -129,7 +129,7 @@ namespace ETNA.MVC.Controllers.PV
 
         //
         // GET: /Reclamo/Delete/5
-
+/*
         public ActionResult Delete(int id)
         {
             return View();
@@ -151,7 +151,7 @@ namespace ETNA.MVC.Controllers.PV
             {
                 return View();
             }
-        }
+        }*/
 
     }
 }

@@ -15,6 +15,26 @@ namespace ETNA.Domain.Venta
               set { _PKID = value; }
           }
 
+
+
+          private Int32 _CodMoneda;
+          public Int32 CodMoneda
+          {
+              get { return _CodMoneda; }
+
+              set { _CodMoneda = value; }
+          }
+
+
+          private Int32 _CodAlmacen;
+          public Int32 CodAlmacen
+          {
+              get { return _CodAlmacen; }
+
+              set { _CodAlmacen = value; }
+          }
+
+
           private Int32 _IDCliente;
           public Int32 IDCliente
           {
@@ -101,6 +121,15 @@ namespace ETNA.Domain.Venta
               get { return _EstadoFacturacion; }
 
               set { _EstadoFacturacion = value; }
+          }
+
+
+          private string _EstadoAprobacion;
+          public string EstadoAprobacion
+          {
+              get { return _EstadoAprobacion; }
+
+              set { _EstadoAprobacion = value; }
           }
 
           private string _DireccionEntrega;

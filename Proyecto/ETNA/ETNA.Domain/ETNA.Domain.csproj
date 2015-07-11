@@ -124,6 +124,17 @@
     <Compile Include="UserProfile.cs">
       <DependentUpon>ETNADbModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Venta\AlmacenBE.cs" />
+    <Compile Include="Venta\ClienteBE.cs" />
+    <Compile Include="Venta\DireccionBE.cs" />
+    <Compile Include="Venta\EmpleadosBE.cs" />
+    <Compile Include="Venta\ModalidadCreditoBE.cs" />
+    <Compile Include="Venta\Moneda.cs" />
+    <Compile Include="Venta\PedidoBE.cs" />
+    <Compile Include="Venta\PedidoDetalleBE.cs" />
+    <Compile Include="Venta\ProductoBE.cs" />
+    <Compile Include="Venta\UsuarioBE.cs" />
+    <Compile Include="Venta\Vendedor.cs" />
     <Compile Include="webpages_Membership.cs">
       <DependentUpon>ETNADbModel.tt</DependentUpon>
     </Compile>
