@@ -15,7 +15,9 @@ namespace ETNA.SGI.Presentacion.Venta
         frmPedido frmpedido;
         string origenform = "";
         frmUpPedido frmuppedido;
+        frmUpComprobante frmUpComprobante;
         AlmacenBL alma = new AlmacenBL();
+        frmComprobanteVenta frmComprobanteVenta;
 
         public frmConsultarAlmacen(frmPedido frm)
         {
@@ -28,12 +30,38 @@ namespace ETNA.SGI.Presentacion.Venta
 
 
         }
+        public frmConsultarAlmacen(frmComprobanteVenta frm)
+        {
+            InitializeComponent();
+
+            this.frmComprobanteVenta = frm;
+            origenform = frm.Name;
+            DataGridView1.DataSource = alma.ObtenerAlmacenes();
+            DataGridView1.AllowUserToAddRows = false;
+
+
+        }
+
+
 
         public frmConsultarAlmacen(frmUpPedido frm)
         {
             InitializeComponent();
 
             this.frmuppedido = frm;
+            origenform = frm.Name;
+            DataGridView1.DataSource = alma.ObtenerAlmacenes();
+            DataGridView1.AllowUserToAddRows = false;
+
+
+        }
+
+
+        public frmConsultarAlmacen(frmUpComprobante frm)
+        {
+            InitializeComponent();
+
+            this.frmUpComprobante = frm;
             origenform = frm.Name;
             DataGridView1.DataSource = alma.ObtenerAlmacenes();
             DataGridView1.AllowUserToAddRows = false;

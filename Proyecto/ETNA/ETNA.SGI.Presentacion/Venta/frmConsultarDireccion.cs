@@ -24,6 +24,8 @@ namespace ETNA.SGI.Presentacion.Venta
         frmUpPedido frmuppedido;
         public int codigocli = 0;
         DireccionBL cbl = new DireccionBL();
+        frmComprobanteVenta frmComprobanteVenta;
+        frmUpComprobante frmUpComprobante;
 
         public frmConsultarDireccion()
         {
@@ -49,6 +51,23 @@ namespace ETNA.SGI.Presentacion.Venta
 
         }
 
+        public frmConsultarDireccion(frmComprobanteVenta frm, int cod)
+        {
+            InitializeComponent();
+
+            this.frmComprobanteVenta = frm;
+            origenform = frm.Name;
+
+            DataGridView1.DataSource = cbl.getdirecciones(cod, "");
+            codigocli = cod;
+            DataGridView1.AllowUserToAddRows = false;
+
+
+        }
+
+
+
+
 
         public frmConsultarDireccion(frmUpPedido frm, int cod)
         {
@@ -62,7 +81,24 @@ namespace ETNA.SGI.Presentacion.Venta
             DataGridView1.AllowUserToAddRows = false;
 
 
+
         }
+
+
+        public frmConsultarDireccion(frmUpComprobante frm, int cod)
+        {
+            InitializeComponent();
+
+            this.frmUpComprobante = frm;
+            origenform = frm.Name;
+
+            DataGridView1.DataSource = cbl.getdirecciones(cod, "");
+            codigocli = cod;
+            DataGridView1.AllowUserToAddRows = false;
+
+
+        }
+
 
 
       //  frmListPrecios frmListPrecios;

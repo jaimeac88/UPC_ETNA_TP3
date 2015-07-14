@@ -39,6 +39,8 @@ namespace ETNA.DAL.Venta
         }
 
 
+
+
         public EmpleadosBE getempleado(int codemp)
         {
             EmpleadosBE be = new EmpleadosBE();
@@ -69,13 +71,13 @@ namespace ETNA.DAL.Venta
                 while (dr.Read())
                 {
 
-                    if (object.ReferenceEquals(dr["EmpleadoID"], DBNull.Value))
+                    if (object.ReferenceEquals(dr["IdVendedor"], DBNull.Value))
                     {
                         be.Id = 0;
                     }
                     else
                     {
-                        be.Id = int.Parse(dr["EmpleadoID"].ToString());
+                        be.Id = int.Parse(dr["IdVendedor"].ToString());
                     }
 
 

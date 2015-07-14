@@ -259,6 +259,7 @@ namespace ETNA.SGI.Presentacion.Venta
             ped.PrecioIncluyeImpuesto = true;
             ped.EstadoFacturacion = "PENDIENTE";
             ped.DireccionEntrega = txtDireccionEntrega.Text;
+            
 
 
 

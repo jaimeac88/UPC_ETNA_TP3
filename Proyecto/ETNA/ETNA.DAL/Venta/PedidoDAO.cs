@@ -235,6 +235,33 @@ namespace ETNA.DAL.Venta
 
 
 
+        public DataTable getpedidos_vendedor(string codven,DateTime fec)
+        {
+            SqlConnection con = DConexion.obtenerBD();
+
+            DataTable datos = new DataTable();
+
+            string textoCmd = "sp_vt_getpedidos_vendedor";
+
+            SqlCommand cmd = new SqlCommand(textoCmd, con);
+
+            cmd.CommandType = CommandType.StoredProcedure;
+            // 3. add parameter to command, which
+            // will be passed to the stored procedure
+            cmd.Parameters.Add(
+                new SqlParameter("@filtro", codven));
+
+            cmd.Parameters.Add(
+              new SqlParameter("@fec", fec));
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(datos);
+
+            return datos;
+
+        }
+
+
         public PedidoBE getPedido(int id)
             {
             PedidoBE be = new PedidoBE();
@@ -349,14 +376,37 @@ namespace ETNA.DAL.Venta
 
 
 
-                     if (object.ReferenceEquals(dr["EmpleadoId"], DBNull.Value))
+                     if (object.ReferenceEquals(dr["IdVendedor"], DBNull.Value))
                     {
                         be.IDVendedor = 0;
                     }
                     else
                     {
-                        be.IDVendedor = int.Parse(dr["EmpleadoId"].ToString());
+                        be.IDVendedor = int.Parse(dr["IdVendedor"].ToString());
                     }
+
+
+                     if (object.ReferenceEquals(dr["MonedaId"], DBNull.Value))
+                     {
+                         be.CodMoneda = 0;
+                     }
+                     else
+                     {
+                         be.CodMoneda = int.Parse(dr["MonedaId"].ToString());
+                     }
+
+
+
+                     if (object.ReferenceEquals(dr["AlmacenId"], DBNull.Value))
+                     {
+                         be.CodAlmacen = 0;
+                     }
+                     else
+                     {
+                         be.CodAlmacen = int.Parse(dr["AlmacenId"].ToString());
+                     }
+
+
 
 
 
@@ -443,6 +493,31 @@ namespace ETNA.DAL.Venta
 
 
 
+        public DataTable obtenerDetalledPedidos_completo(int codpedido)
+
+        {
+            SqlConnection con = DConexion.obtenerBD();
+
+            DataTable datos = new DataTable();
+
+            string textoCmd = "sp_vt_getdetalllepedidos_completo";
+
+            SqlCommand cmd = new SqlCommand(textoCmd, con);
+
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            // 3. add parameter to command, which
+            // will be passed to the stored procedure
+            cmd.Parameters.Add(
+                new SqlParameter("@codpedido", codpedido));
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(datos);
+
+            return datos;
+
+        }
+
         public Boolean updatedetallepedido(int codigodetallepedido,double cant)
         {
             String con = appventa.Default.Setting;
@@ -496,6 +571,61 @@ namespace ETNA.DAL.Venta
             return true;
         }
 
+
+
+
+        public Boolean updateestadopedido(int codpedido,string strestado)
+        {
+            String con = appventa.Default.Setting;
+
+
+            using (SqlConnection connection = new SqlConnection(con))
+            {
+                connection.Open();
+                SqlCommand command = connection.CreateCommand();
+                SqlTransaction transaction;
+
+
+                // Start a local transaction.
+                transaction = connection.BeginTransaction("SampleTransaction");
+
+                // Must assign both transaction object and connection 
+                // to Command object for a pending local transaction
+                command.Connection = connection;
+                command.Transaction = transaction;
+
+                try
+                {
+
+                    command.CommandText =
+                                 "sp_vt_uppedidoestado";
+                    command.CommandType = CommandType.StoredProcedure;
+
+                    command.Parameters.Add(
+              new SqlParameter("@pedidoid", codpedido));
+                    command.Parameters.Add(
+                                  new SqlParameter("@estado", strestado));
+
+                    command.ExecuteNonQuery();
+
+                    // Attempt to commit the transaction.
+                    transaction.Commit();
+                    return true;
+
+                }
+                catch (Exception)
+                {
+                    return false;
+
+                }
+
+
+
+
+            }
+
+            return true;
+        }
 
 
         public Boolean insertDetallePedido(PedidoDetalleBE be) {

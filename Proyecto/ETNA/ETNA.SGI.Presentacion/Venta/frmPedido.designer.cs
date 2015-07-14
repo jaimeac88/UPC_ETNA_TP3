@@ -61,10 +61,6 @@ namespace ETNA.SGI.Presentacion.Venta
             this.Button25 = new System.Windows.Forms.Button();
             this.Button29 = new System.Windows.Forms.Button();
             this.dtgDetalleProd = new System.Windows.Forms.DataGridView();
-            this.codigoproducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.preciolistaventa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TabPage1 = new System.Windows.Forms.TabPage();
             this.Button12 = new System.Windows.Forms.Button();
             this.txtDireccionEntrega = new System.Windows.Forms.TextBox();
@@ -97,6 +93,10 @@ namespace ETNA.SGI.Presentacion.Venta
             this.Label6 = new System.Windows.Forms.Label();
             this.textBox20 = new System.Windows.Forms.TextBox();
             this.cbMonedas = new System.Windows.Forms.ComboBox();
+            this.codigoproducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.preciolistaventa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TabControl1.SuspendLayout();
             this.TabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgDetalleProd)).BeginInit();
@@ -444,30 +444,6 @@ namespace ETNA.SGI.Presentacion.Venta
             this.dtgDetalleProd.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgDetalleProd_CellEnter);
             this.dtgDetalleProd.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgDetalleProd_CellValueChanged);
             // 
-            // codigoproducto
-            // 
-            this.codigoproducto.FillWeight = 64.65898F;
-            this.codigoproducto.HeaderText = "Codigo";
-            this.codigoproducto.Name = "codigoproducto";
-            // 
-            // Nombre
-            // 
-            this.Nombre.FillWeight = 235.476F;
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            // 
-            // preciolistaventa
-            // 
-            this.preciolistaventa.FillWeight = 47.07308F;
-            this.preciolistaventa.HeaderText = "Precio";
-            this.preciolistaventa.Name = "preciolistaventa";
-            // 
-            // cantidad
-            // 
-            this.cantidad.FillWeight = 52.79187F;
-            this.cantidad.HeaderText = "Cantidad";
-            this.cantidad.Name = "cantidad";
-            // 
             // TabPage1
             // 
             this.TabPage1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -812,6 +788,33 @@ namespace ETNA.SGI.Presentacion.Venta
             this.cbMonedas.Size = new System.Drawing.Size(78, 21);
             this.cbMonedas.TabIndex = 107;
             this.cbMonedas.SelectedIndexChanged += new System.EventHandler(this.cbMonedas_SelectedIndexChanged);
+            // 
+            // codigoproducto
+            // 
+            this.codigoproducto.FillWeight = 64.65898F;
+            this.codigoproducto.HeaderText = "Codigo";
+            this.codigoproducto.Name = "codigoproducto";
+            this.codigoproducto.ReadOnly = true;
+            // 
+            // Nombre
+            // 
+            this.Nombre.FillWeight = 235.476F;
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
+            // 
+            // preciolistaventa
+            // 
+            this.preciolistaventa.FillWeight = 47.07308F;
+            this.preciolistaventa.HeaderText = "Precio";
+            this.preciolistaventa.Name = "preciolistaventa";
+            this.preciolistaventa.ReadOnly = true;
+            // 
+            // cantidad
+            // 
+            this.cantidad.FillWeight = 52.79187F;
+            this.cantidad.HeaderText = "Cantidad";
+            this.cantidad.Name = "cantidad";
             // 
             // frmPedido
             // 

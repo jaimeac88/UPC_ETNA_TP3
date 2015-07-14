@@ -15,11 +15,16 @@ namespace ETNA.SGI.Presentacion.Venta
     {
         frmPedido frmpedido;
         frmUpPedido frmuppedido;
+        frmCuotaVenta frmCuotaVenta;
+        frmComprobanteVenta frmComprobanteVenta;
+         frmUpComprobante frmUpComprobante;
 
         public String origen = "";
+        public String gstrvende = "";
         ProductoBL pb = new ProductoBL();
         PedidoDetalleBE ped = new PedidoDetalleBE();
         PedidoBL blped = new PedidoBL();
+        FacturaBL facbl = new FacturaBL();
 
         public frmConsultarProducto(frmPedido frm)
         {
@@ -32,7 +37,28 @@ namespace ETNA.SGI.Presentacion.Venta
 
         }
 
+        public frmConsultarProducto(frmComprobanteVenta frm)
+        {
+            InitializeComponent();
 
+            this.frmComprobanteVenta = frm;
+            origen = frm.Name;
+            dataGridView1.DataSource = pb.ObtenerProductos_SERV();
+            dataGridView1.AllowUserToAddRows = false;
+
+        }
+
+        public frmConsultarProducto(frmCuotaVenta frm, String strvende)
+        {
+            InitializeComponent();
+
+            this.frmCuotaVenta = frm;
+            origen = frm.Name;
+            gstrvende = strvende;
+            dataGridView1.DataSource = pb.ObtenerProductos();
+            dataGridView1.AllowUserToAddRows = false;
+
+        }
 
         public frmConsultarProducto(frmUpPedido frm)
         {
@@ -42,6 +68,19 @@ namespace ETNA.SGI.Presentacion.Venta
 
             origen = frm.Name;
             dataGridView1.DataSource = pb.ObtenerProductos();
+            dataGridView1.AllowUserToAddRows = false;
+
+        }
+
+
+        public frmConsultarProducto(frmUpComprobante frm)
+        {
+            InitializeComponent();
+
+            this.frmUpComprobante = frm;
+
+            origen = frm.Name;
+            dataGridView1.DataSource = pb.ObtenerProductos_SERV();
             dataGridView1.AllowUserToAddRows = false;
 
         }
@@ -145,6 +184,95 @@ namespace ETNA.SGI.Presentacion.Venta
 
 
             }
+            else if (origen == "frmUpComprobante")
+            {
+
+
+                if (frmUpComprobante.dtdetalle.Rows.Count >= 1)
+                {
+
+                    int cantidadnueva = 0;
+                    foreach (DataRow row in frmUpComprobante.dtdetalle.Rows)
+                    {
+                        string codigodetalle = row[0].ToString();
+                        if (codigodetalle == codigo)
+                        {
+                            int factdetalle = int.Parse(row[4].ToString());
+
+                            Double cantidad = Double.Parse(row[3].ToString());
+                            int cantidad2 = int.Parse(cantidad.ToString());
+
+
+                            row[3] = cantidad2 + 1;
+                            if (facbl.updetalleFACTURA(factdetalle, int.Parse(row[3].ToString())))
+                            {
+                                MessageBox.Show(
+                                    "Se agrego una cantidad al detalle comprobate ,debido a que el item que sea agregar ya existe");
+                                modificado = true;
+
+                            }
+                            else
+                            {
+
+                                MessageBox.Show("No se pudo actualizar la cantidad, Comunicarse con el administrador del sistema");
+                                this.Close();
+                            }
+
+
+
+
+
+                            //    row[3] = int.Parse(row[3].ToString()) + 1;
+                            //    cantidadnueva = int.Parse(row[3].ToString());
+                            //    modificado = true;
+                        }
+
+
+
+
+
+
+
+
+
+                    }
+
+
+
+                    if (modificado == false)
+                    {
+
+
+                        int codigoProducto = pb.obteneridproducto(codigo);
+                        decimal precio = decimal.Parse(this.dataGridView1.SelectedCells[2].Value.ToString());
+
+                        FacturaDetalleBE pedidoDetalleBE = new FacturaDetalleBE();
+                        pedidoDetalleBE.ProductoId = codigoProducto;
+                        pedidoDetalleBE.FacturaId = frmUpComprobante.ped.FacturaId;
+                        pedidoDetalleBE.Cantidad = 1;
+                        pedidoDetalleBE.Observacion = "Ingresado en la Modificacion del Comprobante de Pago";
+                        pedidoDetalleBE.Valortotal = precio;
+
+                        if (facbl.insertDetalleFactura(pedidoDetalleBE))
+                        {
+                            MessageBox.Show(
+                       "Se agrego una detalle al Comprobante de Pago");
+
+                        }
+
+                        //frmpedido.dtdetalle.Rows.Add(codigo,
+                        //           this.dataGridView1.SelectedCells[1].Value.ToString(),
+                        //           Double.Parse(this.dataGridView1.SelectedCells[2].Value.ToString()),
+                        //           1);
+
+                    }
+                }
+                frmUpComprobante.actualizarDetalle();
+                frmUpComprobante.actualizarmontos();
+                this.Close();
+
+
+            }
             else if (origen == "frmPedido")
             {
 
@@ -198,6 +326,119 @@ namespace ETNA.SGI.Presentacion.Venta
                 frmpedido.actualizarmontos();
 
 
+
+                
+            }
+            else if (origen == "frmComprobanteVenta")
+            {
+
+                if (frmComprobanteVenta.dtdetalle.Rows.Count >= 1)
+                {
+
+
+                    foreach (DataRow row in frmComprobanteVenta.dtdetalle.Rows)
+                    {
+                        String codigodetalle = row[0].ToString();
+                        if (codigodetalle == codigo)
+                        {
+                            row[3] = int.Parse(row[3].ToString()) + 1;
+                            modificado = true;
+                        }
+
+                    }
+
+                }
+
+                if (modificado == true)
+                {
+                    MessageBox.Show("Se Agregara una cantidad al producto");
+                }
+                else
+                {
+                    if (frmComprobanteVenta.Name == "frmComprobanteVenta")
+                    {
+
+                        frmComprobanteVenta.dtdetalle.Rows.Add(codigo,
+                                   this.dataGridView1.SelectedCells[1].Value.ToString(),
+                                   Double.Parse(this.dataGridView1.SelectedCells[2].Value.ToString()),
+                                   1);
+
+
+
+
+                    }
+
+
+
+
+                }
+
+
+
+
+                frmComprobanteVenta.actualizarDetalle();
+
+
+
+
+
+
+
+
+                frmComprobanteVenta.actualizarmontos();
+
+
+
+
+            } 
+            
+            
+            else if (origen == "frmCuotaVenta")
+            {
+
+            
+                if (frmCuotaVenta.dtvendedor.Rows.Count >= 1)
+                {
+                    ProductoBL pbl= new ProductoBL();
+
+                    foreach (DataRow row in frmCuotaVenta.dtproducto.Rows)
+                    {
+                        String codpro = row[0].ToString();
+                        String codvend = row[2].ToString();
+
+                        string codigoreal = pbl.obteneridproducto(codigo).ToString();
+                        if ((codigoreal == codpro) && (gstrvende == codvend))
+                        {
+                            
+                            modificado = true;
+                        }
+
+                    }
+
+                        if (modificado)
+                        {
+                            MessageBox.Show("Producto ya agregado para el vendedor");
+                            this.Close();
+                        }else
+                        {
+                           
+                            int uid = pbl.obteneridproducto(codigo);
+
+                            frmCuotaVenta.dtproducto.Rows.Add(uid,
+                                this.dataGridView1.SelectedCells[1].Value.ToString(),
+                                gstrvende,0);
+
+
+                            frmCuotaVenta.actualizaProductos(gstrvende);
+                            this.Close();
+                           
+                        }
+
+
+
+                   
+
+                }
 
                 
             }
@@ -278,10 +519,29 @@ namespace ETNA.SGI.Presentacion.Venta
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = null;
-            dataGridView1.DataSource = pb.ObtenerProductosFiltro(textBox2.Text);
-            textBox2.Text = "";
-        }
+         
+            if (origen == "frmComprobanteVenta")
+            {
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = pb.ObtenerProductosFiltro_SERV(textBox2.Text);
+                textBox2.Text = "";
+
+            }
+            else if (origen == "frmUpComprobante")
+            {
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = pb.ObtenerProductosFiltro_SERV(textBox2.Text);
+                textBox2.Text = "";
+            }
+            else
+            {
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = pb.ObtenerProductosFiltro(textBox2.Text);
+                textBox2.Text = "";
+
+            }
+          
+                }
 
        }
 }

@@ -21,9 +21,16 @@ namespace ETNA.SGI.Presentacion.Venta
 
         string origenform = "";
         frmPedido frmpedido;
+        frmCuotaVenta frmCuotaVenta;
         frmUpPedido frmUpPedido;
+        frmFacturacionenLote frmFacturacionenLote;
+        frmComprobanteVenta frmComprobanteVenta;
+        frmUpComprobante frmUpComprobante;
+
 
         VendedorBL cbl = new VendedorBL();
+
+        public String strxzona;
 
         public frmConsultarVendedor()
         {
@@ -49,6 +56,49 @@ namespace ETNA.SGI.Presentacion.Venta
         }
 
 
+        public frmConsultarVendedor(frmFacturacionenLote frm)
+        {
+            InitializeComponent();
+
+            this.frmFacturacionenLote = frm;
+            origenform = frm.Name;
+
+            DataGridView1.DataSource = cbl.getvendedores("");
+            DataGridView1.AllowUserToAddRows = false;
+
+
+        }
+
+        public frmConsultarVendedor(frmComprobanteVenta frm)
+        {
+            InitializeComponent();
+
+            this.frmComprobanteVenta = frm;
+            origenform = frm.Name;
+
+          DataGridView1.DataSource = cbl.getvendedores("");
+          DataGridView1.AllowUserToAddRows = false;
+
+
+        }
+
+        
+
+        public frmConsultarVendedor(frmCuotaVenta frm, string strzona)
+        {
+            InitializeComponent();
+
+            this.frmCuotaVenta = frm;
+            origenform = frm.Name;
+
+            strxzona = strzona;
+            DataGridView1.DataSource = cbl.getvendedores("");
+            DataGridView1.AllowUserToAddRows = false;
+
+
+        }
+
+
         /*Para el Update*/
         public frmConsultarVendedor(frmUpPedido frm)
         {
@@ -62,6 +112,20 @@ namespace ETNA.SGI.Presentacion.Venta
 
 
         }
+
+        public frmConsultarVendedor(frmUpComprobante frm)
+        {
+            InitializeComponent();
+
+            this.frmUpComprobante = frm;
+            origenform = frm.Name;
+
+            DataGridView1.DataSource = cbl.getvendedores("");
+            DataGridView1.AllowUserToAddRows = false;
+
+
+        }
+
 
 
       //  frmListPrecios frmListPrecios;
@@ -97,6 +161,62 @@ namespace ETNA.SGI.Presentacion.Venta
                 frmUpPedido.txtCodVendedor.Text = this.DataGridView1.SelectedCells[0].Value.ToString();
                 frmUpPedido.txtNomVendedor.Text = this.DataGridView1.SelectedCells[1].Value.ToString();
             
+            }
+
+            else if (origenform == "frmUpComprobante")
+            {
+                frmUpComprobante.txtCodVendedor.Text = this.DataGridView1.SelectedCells[0].Value.ToString();
+                frmUpComprobante.txtNomVendedor.Text = this.DataGridView1.SelectedCells[1].Value.ToString();
+
+            }
+            else if (origenform == "frmComprobanteVenta")
+            {
+                frmComprobanteVenta.txtCodVendedor.Text = this.DataGridView1.SelectedCells[0].Value.ToString();
+                frmComprobanteVenta.txtNomVendedor.Text = this.DataGridView1.SelectedCells[1].Value.ToString();
+            
+            }
+                
+
+
+            else if (origenform == "frmFacturacionenLote")
+            {
+                frmFacturacionenLote.txtFiltroVende.Text = this.DataGridView1.SelectedCells[1].Value.ToString();
+                frmFacturacionenLote.strvendedor.IdVendedor = int.Parse( this.DataGridView1.SelectedCells[0].Value.ToString());
+               
+            }
+
+                
+
+            else if (origenform == "frmCuotaVenta")
+            {
+
+                String codigo = this.DataGridView1.SelectedCells[0].Value.ToString();
+                Boolean valida = false;
+                //DataRow row
+                DataGridView dtvendedor = new DataGridView();
+                dtvendedor = frmCuotaVenta.dtgVendedor;
+
+                foreach (DataRow row in frmCuotaVenta.dtvendedor.Rows)
+                {
+                   if (codigo == row[0].ToString())
+                   {
+                       valida = true;
+                   }
+                }
+
+                if (valida == false)
+                {
+                    frmCuotaVenta.dtvendedor.Rows.Add(int.Parse(codigo),
+                        this.DataGridView1.SelectedCells[1].Value.ToString(), strxzona);
+                    
+                    frmCuotaVenta.actualizaVendedor(strxzona);
+                }
+                else
+                {
+                    MessageBox.Show("Empleado ya Agregado");
+                }
+              
+
             }
 
 

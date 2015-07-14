@@ -266,15 +266,19 @@
     <Compile Include="Venta\AutenticacionDAO.cs" />
     <Compile Include="Venta\CategoriasDAO.cs" />
     <Compile Include="Venta\ClientesDAO.cs" />
+    <Compile Include="Venta\CuotaVentaDAO.cs" />
     <Compile Include="Venta\DConexion.cs" />
     <Compile Include="Venta\DireccionDAO.cs" />
     <Compile Include="Venta\DTransaccion.cs" />
+    <Compile Include="Venta\FacturaDAO.cs" />
     <Compile Include="Venta\ModalidaCreditoDAO.cs" />
     <Compile Include="Venta\MonedadDAO.cs" />
     <Compile Include="Venta\PedidoDAO.cs" />
     <Compile Include="Venta\ProductosDAO.cs" />
     <Compile Include="Venta\SucursalDAO.cs" />
+    <Compile Include="Venta\TipoCPDAO.cs" />
     <Compile Include="Venta\VendedoresDAO.cs" />
+    <Compile Include="Venta\ZonaDAO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

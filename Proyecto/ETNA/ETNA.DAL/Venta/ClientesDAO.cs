@@ -60,6 +60,16 @@ namespace ETNA.DAL.Venta
                         be.Codigo = dr["codigo"].ToString();
                     }
 
+                    if (object.ReferenceEquals(dr["DocIdentidad"], DBNull.Value))
+                    {
+                        be.DocIdentidad = null;
+                    }
+                    else
+                    {
+                        be.DocIdentidad = dr["DocIdentidad"].ToString();
+                    }
+
+
 
                     if (object.ReferenceEquals(dr["Nombre"], DBNull.Value))
                     {
@@ -91,8 +101,15 @@ namespace ETNA.DAL.Venta
                     }
 
 
-
-
+                    
+                    if (object.ReferenceEquals(dr["TipoDocIdentidadId"], DBNull.Value))
+                    {
+                        be.IDTipoDocIdentidad = 0;
+                    }
+                    else
+                    {
+                        be.IDTipoDocIdentidad = int.Parse(dr["TipoDocIdentidadId"].ToString());
+                    }
 
 
 

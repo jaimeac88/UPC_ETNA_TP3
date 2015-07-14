@@ -14,7 +14,17 @@ namespace ETNA.BL.Venta
     {
         PedidoDAO pd = new PedidoDAO();
 
+        public DataTable getpedidos_vendedor(string codven,DateTime fec)
+        {
+            return pd.getpedidos_vendedor(codven,fec);
+        }
 
+        public Boolean updateestadopedido(int codpedido,string strestado)
+        {
+            return pd.updateestadopedido(codpedido,strestado);
+        }
+
+        
 
         public Boolean insertPedido(PedidoBE be , DataTable dt)
         {
@@ -43,6 +53,13 @@ namespace ETNA.BL.Venta
             {
                 return pd.getPedido(cod);
             }
+            public DataTable obtenerDetalledPedidos_completo(int cod)
+            {
+                return pd.obtenerDetalledPedidos_completo(cod);
+            }
+
+
+        
 
             public DataTable getdetallepedido(int cod)
             {

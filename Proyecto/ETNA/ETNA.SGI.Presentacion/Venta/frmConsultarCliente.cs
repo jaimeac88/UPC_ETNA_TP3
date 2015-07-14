@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using DevExpress.XtraPrinting.Native;
+using ETNA.Domain;
 using ETNA.Domain.Venta;
 using ETNA.BL.Venta;
 
@@ -21,7 +22,9 @@ namespace ETNA.SGI.Presentacion.Venta
 
         string origenform = "";
         frmPedido frmpedido;
-        frmUpPedido frmuppedido;
+         frmUpPedido frmuppedido;
+         frmComprobanteVenta frmComprobanteVenta;
+         frmUpComprobante frmUpComprobante;
         
         ClienteBL cbl = new ClienteBL();
 
@@ -48,12 +51,38 @@ namespace ETNA.SGI.Presentacion.Venta
 
         }
 
+        public frmConsultarCliente(frmComprobanteVenta frm)
+        {
+            InitializeComponent();
+
+            this.frmComprobanteVenta = frm;
+            origenform = frm.Name;
+
+            DataGridView1.DataSource = cbl.ObtenerClientes();
+            DataGridView1.AllowUserToAddRows = false;
+
+
+        }
+
 
         public frmConsultarCliente(frmUpPedido frm)
         {
             InitializeComponent();
 
             this.frmuppedido = frm;
+            origenform = frm.Name;
+
+            DataGridView1.DataSource = cbl.ObtenerClientes();
+            DataGridView1.AllowUserToAddRows = false;
+
+
+        }
+
+        public frmConsultarCliente(frmUpComprobante frm)
+        {
+            InitializeComponent();
+
+            this.frmUpComprobante = frm;
             origenform = frm.Name;
 
             DataGridView1.DataSource = cbl.ObtenerClientes();
@@ -109,8 +138,33 @@ namespace ETNA.SGI.Presentacion.Venta
 
                 frmuppedido.emp.Id = int.Parse(this.DataGridView1.SelectedCells[7].Value.ToString());
                 frmuppedido.emp.codmodalidad = int.Parse(this.DataGridView1.SelectedCells[8].Value.ToString());
-       
+
             }
+            else if (origenform == "frmComprobanteVenta")
+            {
+                ClienteBL bl = new ClienteBL();
+
+                frmComprobanteVenta.txtCodCliente.Text = this.DataGridView1.SelectedCells[0].Value.ToString();
+                frmComprobanteVenta.txtNombreCliente.Text = this.DataGridView1.SelectedCells[1].Value.ToString();
+                frmComprobanteVenta.txtDocIdentidad.Text = this.DataGridView1.SelectedCells[2].Value.ToString();
+                frmComprobanteVenta.txtDireccion.Text = this.DataGridView1.SelectedCells[3].Value.ToString();
+                frmComprobanteVenta.txtDireccionEntrega.Text = this.DataGridView1.SelectedCells[4].Value.ToString();
+                frmComprobanteVenta.txtmodalidad.Text = this.DataGridView1.SelectedCells[5].Value.ToString();
+                frmComprobanteVenta.txtlineacredito.Text = this.DataGridView1.SelectedCells[6].Value.ToString();
+
+                int codigocli = int.Parse(this.DataGridView1.SelectedCells[7].Value.ToString());
+                int comprobantepago = int.Parse(this.DataGridView1.SelectedCells[9].Value.ToString());
+               String descomprobante = (this.DataGridView1.SelectedCells[10].Value.ToString());
+                
+                //frmComprobanteVenta.emp.Id = codigocli;
+                //frmComprobanteVenta.emp.codmodalidad = int.Parse(this.DataGridView1.SelectedCells[8].Value.ToString());
+               frmComprobanteVenta.cli = bl.getcliente(codigocli);
+               frmComprobanteVenta.txtTipoDocumento.Text = descomprobante;
+               //frmComprobanteVenta.cli.IDTipoDocIdentidad = ;
+                
+
+            } 
+           
 
 
             this.Close();

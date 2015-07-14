@@ -26,6 +26,19 @@ namespace ETNA.BL.Venta
             return c.ObtenerProductosFiltro(filtro);
         }
 
+
+        public DataTable ObtenerProductos_SERV()
+        {
+
+            return c.ObtenerProductos_SERV();
+        }
+
+        public DataTable ObtenerProductosFiltro_SERV(String filtro)
+        {
+
+            return c.ObtenerProductosFiltro_SERV(filtro);
+        }
+
         public  int obteneridproducto (String strcodigo)
         {
 

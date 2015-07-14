@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="Setting" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Data Source=JaimeAguilar-PC\SQLEXPRESS;Initial Catalog=integrado;Integrated Security=True</Value>
+      <Value Profile="(Default)">Data Source=JaimeAguilar-PC\SQLEXPRESS;Initial Catalog=integradovrs2;Integrated Security=True</Value>
     </Setting>
   </Settings>
 </SettingsFile>

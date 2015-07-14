@@ -124,7 +124,7 @@
             this.ribbonPage6,
             this.ribbonPage7});
             this.ribbon.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2007;
-            this.ribbon.Size = new System.Drawing.Size(791, 147);
+            this.ribbon.Size = new System.Drawing.Size(803, 145);
             this.ribbon.StatusBar = this.ribbonStatusBar;
             this.ribbon.Click += new System.EventHandler(this.ribbon_Click);
             // 
@@ -222,10 +222,11 @@
             // 
             // barButtonItem5
             // 
-            this.barButtonItem5.Caption = "Facturas";
+            this.barButtonItem5.Caption = "Comprobante de Venta";
             this.barButtonItem5.Id = 13;
             this.barButtonItem5.LargeGlyph = global::ETNA.SGI.Presentacion.Properties.Resources.atlas_energia_factura;
             this.barButtonItem5.Name = "barButtonItem5";
+            this.barButtonItem5.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem5_ItemClick);
             // 
             // barButtonItem2
             // 
@@ -240,6 +241,7 @@
             this.barButtonItem7.Id = 17;
             this.barButtonItem7.LargeGlyph = global::ETNA.SGI.Presentacion.Properties.Resources.ACCESOS12;
             this.barButtonItem7.Name = "barButtonItem7";
+            this.barButtonItem7.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem7_ItemClick);
             // 
             // barButtonItem8
             // 
@@ -254,6 +256,7 @@
             this.barButtonItem9.Id = 19;
             this.barButtonItem9.LargeGlyph = global::ETNA.SGI.Presentacion.Properties.Resources.listaprecio;
             this.barButtonItem9.Name = "barButtonItem9";
+            this.barButtonItem9.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem9_ItemClick);
             // 
             // barButtonItem10
             // 
@@ -291,6 +294,7 @@
             this.barbuttons3.Id = 24;
             this.barbuttons3.LargeGlyph = global::ETNA.SGI.Presentacion.Properties.Resources.factura;
             this.barbuttons3.Name = "barbuttons3";
+            this.barbuttons3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barbuttons3_ItemClick);
             // 
             // barButtonItem14
             // 
@@ -415,10 +419,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ribbonStatusBar.Dock = System.Windows.Forms.DockStyle.None;
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 497);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 488);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(786, 23);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(784, 32);
             // 
             // PanelControl1
             // 
@@ -428,12 +432,12 @@
             this.PanelControl1.Location = new System.Drawing.Point(0, 150);
             this.PanelControl1.LookAndFeel.SkinName = "Office 2010 Blue";
             this.PanelControl1.Name = "PanelControl1";
-            this.PanelControl1.Size = new System.Drawing.Size(786, 342);
+            this.PanelControl1.Size = new System.Drawing.Size(784, 342);
             this.PanelControl1.TabIndex = 5;
             // 
             // defaultLookAndFeel1
             // 
-            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Visual Studio 2013 Dark";
+            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Office 2010 Silver";
             this.defaultLookAndFeel1.LookAndFeel.TouchUIMode = DevExpress.LookAndFeel.TouchUIMode.False;
             // 
             // MenuPrincipal
@@ -442,7 +446,7 @@
             this.Appearance.Options.UseForeColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(786, 520);
+            this.ClientSize = new System.Drawing.Size(784, 520);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.PanelControl1);
             this.Controls.Add(this.ribbon);

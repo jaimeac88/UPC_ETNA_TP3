@@ -31,6 +31,27 @@ namespace ETNA.DAL.Venta
 
         }
 
+        public DataTable ObtenerProductos_SERV()
+        {
+
+            SqlConnection con = DConexion.obtenerBD();
+
+            DataTable datos = new DataTable();
+
+            string textoCmd = "sp_vt_getproductos_SERV";
+
+            SqlCommand cmd = new SqlCommand(textoCmd, con);
+
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(datos);
+
+            return datos;
+
+        }
+
+
         public int ObtenerCodigoIDProducto(string strcodigo)
         {
 
@@ -67,6 +88,32 @@ namespace ETNA.DAL.Venta
             DataTable datos = new DataTable();
 
             string textoCmd = "sp_ve_getproductoxfiltro";
+
+            SqlCommand cmd = new SqlCommand(textoCmd, con);
+
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            // 3. add parameter to command, which
+            // will be passed to the stored procedure
+            cmd.Parameters.Add(
+                new SqlParameter("@filtro", pFiltro));
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(datos);
+
+            return datos;
+
+        }
+
+
+        public DataTable ObtenerProductosFiltro_SERV(String pFiltro)
+        {
+
+            SqlConnection con = DConexion.obtenerBD();
+
+            DataTable datos = new DataTable();
+
+            string textoCmd = "sp_ve_getproductoxfiltro_SERV";
 
             SqlCommand cmd = new SqlCommand(textoCmd, con);
 

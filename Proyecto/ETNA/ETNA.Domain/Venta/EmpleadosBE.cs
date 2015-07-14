@@ -31,7 +31,7 @@ namespace ETNA.Domain.Venta
         private string _Nombres;
         public string Nombres
         {
-            get { return _Nombres; }
+            get { return  _Nombres.Trim(); }
 
             set { _Nombres = value; }
         }
@@ -39,7 +39,7 @@ namespace ETNA.Domain.Venta
         private string _Apellidos;
         public string Apellidos
         {
-            get { return _Apellidos; }
+            get { return _Apellidos.Trim(); }
 
             set { _Apellidos = value; }
         }

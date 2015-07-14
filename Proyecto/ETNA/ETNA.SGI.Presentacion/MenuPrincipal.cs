@@ -47,15 +47,26 @@ namespace ETNA.SGI.Presentacion
 
         private void barButtonItem1_ItemClick(object sender, ItemClickEventArgs e)
         {
-           // frmPedido nuevo = new frmPedido(emp);
-            frmConsultaPedido nuevo = new frmConsultaPedido(emp);
-            nuevo.TopLevel = false;
-            nuevo.AutoScroll = true;
-            //nuevo.WindowState =
-            nuevo.ControlBox = true;
-            nuevo.AutoSize = true;
-            PanelControl1.Controls.Add(nuevo);
-            nuevo.Show();
+
+            if ( (emp.Cargo == "FACTURADOR") || (emp.Cargo == "ADMINISTRATOR"))
+            {
+
+             // frmPedido nuevo = new frmPedido(emp);
+                    frmConsultaPedido nuevo = new frmConsultaPedido(emp);
+                    nuevo.TopLevel = false;
+                    nuevo.AutoScroll = true;
+                    //nuevo.WindowState =
+                    nuevo.ControlBox = true;
+                    nuevo.AutoSize = true;
+                    PanelControl1.Controls.Add(nuevo);
+                    nuevo.Show();
+            }
+            else
+            {
+                MessageBox.Show("Su perfil no puede ingresar a esta opción");
+            }
+            
+       
         }
 
         private void ribbon_Click(object sender, EventArgs e)
@@ -84,6 +95,91 @@ namespace ETNA.SGI.Presentacion
             nuevo.AutoSize = true;
             PanelControl1.Controls.Add(nuevo);
             nuevo.Show();
+        }
+
+        private void barButtonItem7_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            if ((emp.Cargo == "ANALISTA COMERCIAL") || (emp.Cargo == "ADMINISTRATOR"))
+            {
+                // frmPedido nuevo = new frmPedido(emp);
+                frmConsultaCuotaVenta nuevo = new frmConsultaCuotaVenta();
+                nuevo.TopLevel = false;
+                nuevo.AutoScroll = true;
+                //nuevo.WindowState =
+                nuevo.ControlBox = true;
+                nuevo.AutoSize = true;
+                PanelControl1.Controls.Add(nuevo);
+                nuevo.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("Su perfil no puede ingresar a esta opción");
+            }
+
+        }
+
+        private void barButtonItem5_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            if ((emp.Cargo == "FACTURADOR") || (emp.Cargo == "ADMINISTRATOR"))
+            {
+                // frmPedido nuevo = new frmPedido(emp);
+                frmConsultaComprobante nuevo = new frmConsultaComprobante();
+                nuevo.TopLevel = false;
+                nuevo.AutoScroll = true;
+                //nuevo.WindowState =
+                nuevo.ControlBox = true;
+                nuevo.AutoSize = true;
+                PanelControl1.Controls.Add(nuevo);
+                nuevo.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("Su perfil no puede ingresar a esta opción");
+            }
+        }
+
+        private void barbuttons3_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            if ((emp.Cargo == "FACTURADOR") || (emp.Cargo == "ADMINISTRATOR"))
+            {
+                // frmPedido nuevo = new frmPedido(emp);
+                frmFacturacionenLote nuevo = new frmFacturacionenLote();
+                nuevo.TopLevel = false;
+                nuevo.AutoScroll = true;
+                //nuevo.WindowState =
+                nuevo.ControlBox = true;
+                nuevo.AutoSize = true;
+                PanelControl1.Controls.Add(nuevo);
+                nuevo.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("Su perfil no puede ingresar a esta opción");
+            }
+        }
+
+        private void barButtonItem9_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            if ((emp.Cargo == "ANALISTA COMERCIAL") || (emp.Cargo == "ADMINISTRATOR"))
+            {
+                // frmPedido nuevo = new frmPedido(emp);
+                frmListadePrecios nuevo = new frmListadePrecios();
+                nuevo.TopLevel = false;
+                nuevo.AutoScroll = true;
+                //nuevo.WindowState =
+                nuevo.ControlBox = true;
+                nuevo.AutoSize = true;
+                PanelControl1.Controls.Add(nuevo);
+                nuevo.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("Su perfil no puede ingresar a esta opción");
+            }
         }
 
 

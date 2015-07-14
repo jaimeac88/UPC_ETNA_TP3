@@ -25,8 +25,8 @@ namespace ETNA.DAL.Venta {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=JaimeAguilar-PC\\SQLEXPRESS;Initial Catalog=integrado;Integrated Secur" +
-            "ity=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=JaimeAguilar-PC\\SQLEXPRESS;Initial Catalog=integradovrs2;Integrated S" +
+            "ecurity=True")]
         public string Setting {
             get {
                 return ((string)(this["Setting"]));

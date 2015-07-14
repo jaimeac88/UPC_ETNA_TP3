@@ -50,12 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmSplash.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,12 +61,6 @@
     </Compile>
     <Compile Include="Login.designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Menu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Menu.designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -88,11 +76,35 @@
     <Compile Include="RibbonForm1.Designer.cs">
       <DependentUpon>RibbonForm1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Venta\frmUpComprobante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta\frmUpComprobante.designer.cs">
+      <DependentUpon>frmUpComprobante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venta\frmConsultaComprobante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta\frmConsultaComprobante.designer.cs">
+      <DependentUpon>frmConsultaComprobante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venta\frmComprobanteVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta\frmComprobanteVenta.designer.cs">
+      <DependentUpon>frmComprobanteVenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Venta\frmCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Venta\frmCliente.designer.cs">
       <DependentUpon>frmCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venta\frmConsultaCuotaVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta\frmConsultaCuotaVenta.Designer.cs">
+      <DependentUpon>frmConsultaCuotaVenta.cs</DependentUpon>
     </Compile>
     <Compile Include="Venta\frmConsultaPedido.cs">
       <SubType>Form</SubType>
@@ -130,6 +142,42 @@
     <Compile Include="Venta\frmConsultarVendedor.designer.cs">
       <DependentUpon>frmConsultarVendedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Venta\frmConsultaTipoCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta\frmConsultaTipoCP.Designer.cs">
+      <DependentUpon>frmConsultaTipoCP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venta\frmConsultaxZona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta\frmConsultaxZona.Designer.cs">
+      <DependentUpon>frmConsultaxZona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venta\frmCuotaVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta\frmCuotaVenta.Designer.cs">
+      <DependentUpon>frmCuotaVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venta\frmFacturacionenLote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta\frmFacturacionenLote.Designer.cs">
+      <DependentUpon>frmFacturacionenLote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venta\frmListadePrecios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta\frmListadePrecios.Designer.cs">
+      <DependentUpon>frmListadePrecios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Venta\frmListListadoPrecioscs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta\frmListListadoPrecioscs.Designer.cs">
+      <DependentUpon>frmListListadoPrecioscs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Venta\frmPedido.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,9 +196,6 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,8 +210,20 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Venta\frmUpComprobante.resx">
+      <DependentUpon>frmUpComprobante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta\frmConsultaComprobante.resx">
+      <DependentUpon>frmConsultaComprobante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta\frmComprobanteVenta.resx">
+      <DependentUpon>frmComprobanteVenta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Venta\frmCliente.resx">
       <DependentUpon>frmCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta\frmConsultaCuotaVenta.resx">
+      <DependentUpon>frmConsultaCuotaVenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Venta\frmConsultaPedido.resx">
       <DependentUpon>frmConsultaPedido.cs</DependentUpon>
@@ -185,6 +242,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Venta\frmConsultarVendedor.resx">
       <DependentUpon>frmConsultarVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta\frmConsultaTipoCP.resx">
+      <DependentUpon>frmConsultaTipoCP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta\frmConsultaxZona.resx">
+      <DependentUpon>frmConsultaxZona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta\frmCuotaVenta.resx">
+      <DependentUpon>frmCuotaVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta\frmFacturacionenLote.resx">
+      <DependentUpon>frmFacturacionenLote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta\frmListadePrecios.resx">
+      <DependentUpon>frmListadePrecios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta\frmListListadoPrecioscs.resx">
+      <DependentUpon>frmListListadoPrecioscs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Venta\frmPedido.resx">
       <DependentUpon>frmPedido.cs</DependentUpon>
